@@ -577,7 +577,7 @@ class OrdererInfoInputAction extends AbstractOrderAction
                         ));
                         if (trim($ymd, '-') !== '') {
                             $haisoLimitYmd = $this->settings['delivery_date_deadline'];
-                            // 中野区：配送日指定が可能な期間を注文日を0日目として、30日目までにする
+                            // 墨田区：配送日指定が可能な期間を注文日を0日目として、30日目までにする
                             $t30daysAfter = strtotime('+30 day');
                             if (!$haisoLimitYmd || (strtotime($haisoLimitYmd) > $t30daysAfter)) {
                                 $haisoLimitYmd = date('Y-m-d', $t30daysAfter);

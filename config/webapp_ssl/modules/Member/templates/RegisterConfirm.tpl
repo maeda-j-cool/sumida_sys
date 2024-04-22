@@ -181,7 +181,7 @@
             <div>{$option.M37TEXT|escape}</div>
             {if $option.M37HASFREE == '1'}
                 {if $enquete.M36SEQ|escape == '1'}
-{* 中野区専用：特殊>>> *}
+{* 墨田区専用：特殊>>> *}
 {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
 {assign var="post_name_ex_n" value="{$post_name|escape}_{$oid|escape}_n"}
 {assign var="post_name_ex_age1" value="{$post_name|escape}_{$oid|escape}_age1"}
@@ -208,7 +208,7 @@
 {$confirm_params[$post_name_ex_age3]|escape}歳
 {/if}
 ）</span>
-{* <<<中野区専用：特殊 *}
+{* <<<墨田区専用：特殊 *}
                 {else}
                     {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
                     {if isset($confirm_params[$post_name_ex])}<div>{$confirm_params[$post_name_ex]|escape|nl2br}</div>{/if}

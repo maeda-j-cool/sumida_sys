@@ -295,7 +295,7 @@ class RegisterInputAction extends AbstractMemberAction
                                             if ($m37['M37HASFREE'] == '1') {
                                                 $postName = sprintf('enquete%d_%d', $eid, $oid);
                                                 if ($enquete['M36SEQ'] == 1) {
-                                                    // 中野区専用（特殊）
+                                                    // 墨田区専用（特殊）
                                                     $dispName = sprintf('アンケート%dの回答：%s', intval($enquete['M36SEQ']), $m37['M37TEXT']);
                                                     $postNameN = $postName . '_n';
                                                     $dispNameN = $dispName . 'の人数';

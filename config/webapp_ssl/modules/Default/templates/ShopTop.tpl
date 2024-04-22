@@ -377,7 +377,7 @@
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114020/tabAllFlg/1" class="item3__text">内祝い好適品</a>
             </div>
             <div class="item4">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114010/tabAllFlg/1" class="item4__text">中野区ゆかりの品</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114010/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
             </div>
             <!-- <div class="item5">
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114030/tabAllFlg/1" class="item5__text">防災用品</a>
@@ -392,8 +392,8 @@
     </article>
 
     <article class="connection">
-        <h2 class="connection__sub-title" id="top-connection">中野区の子育て支援情報</h2>
-        <p class="connection__text">中野区はお子さまの健やかな成長を願って、さまざまな形で皆さまの子育てを応援しています。</p>
+        <h2 class="connection__sub-title" id="top-connection">墨田区の子育て支援情報</h2>
+        <p class="connection__text">墨田区はお子さまの健やかな成長を願って、さまざまな形で皆さまの子育てを応援しています。</p>
         <div class="connection-image">
             <div class="connection-box">
                 <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/hanokenko/kodomonoha.html" target="_blank" target="_blank"><img alt="子どもの歯のおはなし"
@@ -402,9 +402,9 @@
                 <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/odekake/index.html" target="_blank"><img alt="でかける・居場所" src="/assets/img/connection2.png" width="490"
                     height="190"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/bosai/index.html" target="_blank"><img src="/assets/img/connection3.png" alt="中野区防災サイト"></a>
+                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/bosai/index.html" target="_blank"><img src="/assets/img/connection3.png" alt="墨田区防災サイト"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/index.html" target="_blank"><img src="/assets/img/connection4.png" alt="中野区子育てサイトおひるね"></a>
+                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/index.html" target="_blank"><img src="/assets/img/connection4.png" alt="墨田区子育てサイトおひるね"></a>
                 </figure>
               </div>
         </div>

@@ -8,7 +8,7 @@
   <meta property="og:image" content="/assets/img/ogp.jpg">
   <title>ログイン | {$smarty.const.HTML_TITLE_SUFFIX|escape}</title>
   <meta name="description"
-    content="「中野区ファーストバースデーサポート」は中野区で子育てをスタートするご家庭に「出産や子育てを応援するギフト」をお贈りする国および中野区の事業です。ポイント制で家庭ごとにカスタマイズ可能な商品選択、生活ステージに応じた全面サポート。最新情報、FAQ、地域別支援情報も盛りだくさん。" />
+    content="「墨田区ファーストバースデーサポート」は墨田区で子育てをスタートするご家庭に「出産や子育てを応援するギフト」をお贈りする国および墨田区の事業です。ポイント制で家庭ごとにカスタマイズ可能な商品選択、生活ステージに応じた全面サポート。最新情報、FAQ、地域別支援情報も盛りだくさん。" />
   <link rel="icon" href="/assets/img/favicon/tmp/icon-32.ico">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" href="/assets/img/MacOSX/icon_32x32.png">
@@ -46,7 +46,7 @@
                         <picture class="title__image">
                             <source media="(max-width: 768px)" srcset="/assets/img/sp/mv-text_sp.png">
                             <source media="(min-width: 769px)" srcset="/assets/img/mv-text.png">
-                            <img src="/assets/img/mv-text.png" alt="中野区ファーストバースデーサポート">
+                            <img src="/assets/img/mv-text.png" alt="墨田区ファーストバースデーサポート">
                         </picture>
                     </span></h1>
             </div>
@@ -77,7 +77,7 @@
     <div class="topfooter_bg">
     <section class="inquiry">
         <div class="inquiry__inner-top">
-            <h3 class="title">中野区ファーストバースデー<br class="pc-none">サポートお客様センター
+            <h3 class="title">墨田区ファーストバースデー<br class="pc-none">サポートお客様センター
             </h3>
             <p>フリーダイヤル 0800-100-1265</p>
             <p>受付時間9:00~17:00<br class="pc-none">(土日祝日、お盆8/10～8/18、年末年始12/31～1/5除く)</p>

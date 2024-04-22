@@ -67,7 +67,7 @@ class RegisterConfirmAction extends AbstractMemberAction
                 'BIRTH02'  => null,
                 'NAME'     => $postParams[self::I_SEI_KANJI1] . ' ' . $postParams[self::I_MEI_KANJI1],
                 'PASSWORD' => '',
-                'NEWSFLG'  => '0', // 中野区はイベントメールなどがないので0固定
+                'NEWSFLG'  => '0', // 墨田区はイベントメールなどがないので0固定
             ];
             if ($postParams[self::I_PASSWORD1]) {
                 $dbParams['PASSWORD'] = rincrypt($postParams[self::I_PASSWORD1]);
@@ -200,7 +200,7 @@ class RegisterConfirmAction extends AbstractMemberAction
                     throw new WtDbException(E_DB_EXECUTE_ERR);
                 }
             }
-            // 中野区では登録時のギフトカード更新などを行わない
+            // 墨田区では登録時のギフトカード更新などを行わない
             if (!$db->ConnCommit()) {
                 WtApp::getLogger()->error('COMMIT ERROR:トランザクションの確定処理に失敗しました。');
                 throw new WtDbException(E_DB_EXECUTE_ERR, 1);

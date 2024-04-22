@@ -118,7 +118,7 @@
                 <li class="utility_navigation_item">
                     <div class="button_pcNav"><span></span><span></span><span></span></div>
                     <ul class="nav_pcTop">
-                        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">中野区の子育て支援情報</a></li>
+                        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">墨田区の子育て支援情報</a></li>
 {if !$is_virtual}
                         <li class="nav__list"><a href="{wt_action_url mod='Default' act='Mypage'}">マイページ</a></li>
 {/if}
@@ -141,14 +141,14 @@
         </div>
         <div class="citizen_wrap">
             <!-- <p class="citizen"><span class="citizen__span">{$settings.kenshu_name}民の</span></p> -->
-            <a href="{wt_action_url mod="" act=""}"><img src="/assets/img/logo_after.svg" alt="中野区ファーストバースデーサポート"></a>
+            <a href="{wt_action_url mod="" act=""}"><img src="/assets/img/logo_after.svg" alt="墨田区ファーストバースデーサポート"></a>
         </div>
     </div>
     <div class="sp-utility">
         <div class="utility_navigation">
             <h1 class="utility_navigation_logo">
                 <!-- <p class="citizen"><span class="citizen__span">{$settings.kenshu_name}民の</span></p> -->
-                <a href="{wt_action_url mod="" act=""}"><img src="/assets/img/sp/logo_after.svg" alt="{$settings.kenshu_name}民の中野区ファーストバースデーサポート" class="citizen_img" width="200"></a>
+                <a href="{wt_action_url mod="" act=""}"><img src="/assets/img/sp/logo_after.svg" alt="{$settings.kenshu_name}民の墨田区ファーストバースデーサポート" class="citizen_img" width="200"></a>
             </h1>
             <ul class="utility_navigation_list">
 {if !$is_virtual}
@@ -166,7 +166,7 @@
                 <li class="utility_navigation_item">
                     <div class="button"><span></span><span></span><span></span></div>
                     <ul class="nav">
-                        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">中野区の子育て支援情報</a></li>
+                        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">墨田区の子育て支援情報</a></li>
 {if !$is_virtual}
                         <li class="nav__list"><a href="{wt_action_url mod='Default' act='Mypage'}">マイページ</a></li>
 {/if}
@@ -392,8 +392,8 @@
                 </a>
             </li>
             <li class="header_navigation_item">
-                <a href="{wt_action_url mod="" act=""}#top-connection"><img src="/assets/img/nav_02.svg" alt="中野区の子育て支援情報">
-                    <p>中野区の子育て支援情報</p>
+                <a href="{wt_action_url mod="" act=""}#top-connection"><img src="/assets/img/nav_02.svg" alt="墨田区の子育て支援情報">
+                    <p>墨田区の子育て支援情報</p>
                 </a>
             </li>
             <li class="header_navigation_item">
@@ -421,7 +421,7 @@
         <span class="button_span"></span>
     </div>
     <ul class="nav">
-        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">中野区の子育て支援情報</a></li>
+        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">墨田区の子育て支援情報</a></li>
         <li class="nav__list"><a class="modal-login" href="{wt_action_url mod="Default" act="Login"}?act=l">ログイン</a></li>
         <li class="nav__list"><a class="modal-first" href="{wt_action_url mod="Default" act="Login"}?act=r">初回登録</a></li>
     </ul>

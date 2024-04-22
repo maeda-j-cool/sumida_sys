@@ -317,7 +317,7 @@
                                             <label for="{$post_name|escape}_{$oid|escape}">{$option.M37TEXT|escape}</label>
 {if $option.M37HASFREE == '1'}
 {if $enquete.M36SEQ|escape == '1'}
-{* 中野区専用：特殊>>> *}
+{* 墨田区専用：特殊>>> *}
 {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
 {assign var="post_name_ex_n" value="{$post_name|escape}_{$oid|escape}_n"}
 {assign var="post_name_ex_age1" value="{$post_name|escape}_{$oid|escape}_age1"}
@@ -338,7 +338,7 @@
 &emsp;
 <input type="number" name="{$post_name_ex_age3|escape}" value="{$post_value_ex_age3|escape}" size="3" maxlength="2">歳
 {/strip}</span>
-{* <<<中野区専用：特殊 *}
+{* <<<墨田区専用：特殊 *}
 {else}
 {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
 {if is_array($post_value) && in_array($oid, $post_value) && isset($wt__posts[$post_name_ex])}

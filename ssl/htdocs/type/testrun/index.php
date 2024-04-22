@@ -49,7 +49,7 @@ if ($kenshuIndex && is_file($kenshuIndex) && $cardType) {
     echo '</head>';
     echo '<body>';
     echo '<div class="container text-center" style="padding:64px;">';
-    echo '<h4 style="margin-bottom:8px;color:#333399;">中野区出産・子育て応援ギフト「中野区ファーストバースデーサポート」</h4>';
+    echo '<h4 style="margin-bottom:8px;color:#333399;">墨田区出産・子育て応援ギフト「墨田区ファーストバースデーサポート」</h4>';
     echo '<form method="post">';
     echo '<div class="form-group form-group-md">';
     echo '<div class="col-md-offset-4 col-md-4" style="padding:8px;">';

@@ -86,7 +86,7 @@ class LoginAction extends SgAction
                         if (empty($result['errors'])) {
                             $gcInfo = $this->login($loginId, $loginPassword);
                             if ($gcInfo instanceof SgGiftcardInfo) {
-                                // 中野区ではログイン時のワンタイムパスワード処理を行わない
+                                // 墨田区ではログイン時のワンタイムパスワード処理を行わない
                                 $gcInfo->sync();
                                 if (!$gcInfo->expiryYmd) {
                                     // カードに有効期限が未設定（利用不可）
@@ -99,7 +99,7 @@ class LoginAction extends SgAction
                                     $this->updatePoints($gcInfo);
                                     $user->setAuthenticated(true, false);
                                     if ($gcInfo->usablePoints <= 0) {
-                                        // 中野区・墨田区共通で、申込完了後のログインは交換履歴（出荷状況照会）に遷移するようにしてください。
+                                        // 墨田区・墨田区共通で、申込完了後のログインは交換履歴（出荷状況照会）に遷移するようにしてください。
                                         // ただし、ギフトカード側に残ポイントがある場合（＝何らかの理由でポイント返還を行った場合）は、
                                         // 通常のログインと同じ扱いとし、再度の商品申込みも可能としてください。
                                         // ※上記要望から残ポイントで判定

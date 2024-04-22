@@ -35,7 +35,7 @@
         <div class="mini-site-map">
             <ul class="site-box1">
                 <li class="box1-item">
-                    <h3 class="box1-sub-item"><a href="/#top-connection">中野区の子育て支援情報</a></h3>
+                    <h3 class="box1-sub-item"><a href="/#top-connection">墨田区の子育て支援情報</a></h3>
                     <!-- <h3 class="box2-sub-item"><a href="/#top-connection">関連情報</a></h3> -->
                     <!--<h3 class="special-sub-item"><a href="/#top-Special-feature">特集</a></h3>-->
                 </li>
