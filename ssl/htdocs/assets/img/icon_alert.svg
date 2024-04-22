@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
-  <g id="グループ_15193" data-name="グループ 15193" transform="translate(0 -1)">
-    <circle id="楕円形_218" data-name="楕円形 218" cx="13.5" cy="13.5" r="13.5" transform="translate(0 1)" fill="#8a7953"/>
-    <text id="_" data-name="！" transform="translate(14 23)" fill="#fff" font-size="20" font-family="TsukuARdGothicStd-B, FOT-TsukuARdGothic Std"><tspan x="-10" y="0">！</tspan></text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="29" viewBox="0 0 27 29"><path d="M13.5,0A13.5,13.5,0,1,1,0,13.5,13.5,13.5,0,0,1,13.5,0Z" transform="translate(0 1)"/><text transform="translate(14 23)" fill="#fff" font-size="20" font-family="TsukuARdGothicStd-B, FOT-TsukuARdGothic Std"><tspan x="-10" y="0">！</tspan></text></svg>

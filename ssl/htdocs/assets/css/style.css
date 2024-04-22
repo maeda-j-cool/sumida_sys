@@ -2,7 +2,7 @@
 :root {
   --color-main: #EBEBEB;
   --color-sub: #F9EDE1;
-  --color-button: #D84800;
+  --color-button: #CE4074;
   --color-text: #000000;
   --color-title:#D84800;
 }
@@ -16,17 +16,17 @@
 }
 
 .header_inner {
-  background: #FFFFFF;
+  background: #FFFAEE;
   text-align: right;
   color: var(--color-text);
   z-index: 10;
   position: relative;
   font-family: "Zen Maru Gothic";
   height: 60px;
-  background-image: url(../img/bg_line.png);
+  /* background-image: url(../img/bg_line.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom; */
 }
 .act--login,
 .modal-login {
@@ -36,7 +36,6 @@
 .before-login-header .header_inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 14px 10px 14px 30px;
 }
 
@@ -90,9 +89,11 @@
   font-weight: bold;
   text-align: center;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #FFFAEE;
 }
 .mv-top .mv-top__inner {
+  max-width: 764px;
+  margin: 0 auto;
   /* background: #FFE8E8; */
   /* background-image: url(../img/mv-bg.png);
   background-repeat: no-repeat;
@@ -101,12 +102,13 @@
   /* padding: 40px 100px 30px; */
 }
 .mv-top .mv-top__bg {
-  max-width: 748px;
-  background-color: #F5F5F5;
-  padding: 50px auto 40px;
-  border: 15px solid var(--color-main);
-  padding: 40px 100px 30px;
+  max-width: 1006px;
+  background-color: #FFF;
+  /* border: 15px solid var(--color-main); */
+  /* padding: 40px 100px 17px; */
   margin: 40px auto 0;
+  border-radius: 80px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 @media screen and (max-width: 768px) {
   .mv-top .mv-top__bg {
@@ -157,17 +159,18 @@ figure img{
   width: 100%;
 }
 .explanation {
-	/* text-align: left; */
-	/* max-width: 550px; */
-	/* margin: 10px auto; */
+  padding-top: 18px;
 	font-size: 20px;
 	font-size: 2rem;
 	z-index: 10;
+  color: #1A1311;
+  	/* text-align: left; */
+	/* max-width: 550px; */
+	/* margin: 10px auto; */
 	/* position: relative; */
 	/* padding: 20px 40px; */
 	/* background: #fff; */
 	/* border-radius: 30px; */
-	color: #1A1311;
   /* box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); */
 }
 
@@ -189,6 +192,7 @@ figure img{
   margin-bottom: 50px;
   max-width: 581px;
   margin: 0 auto;
+  padding-top: 22px;
 }
 
 .title {
@@ -200,7 +204,7 @@ figure img{
   z-index: 100;
 }
 .top-explanation {
-  margin-top: 60px;
+  margin-top: 17px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -208,6 +212,28 @@ figure img{
   /* margin-left: -110px; */
   /* position: absolute;
   right: 50px; */
+}
+.top-explanation::before {
+  content: "";
+  background-image: url(../img/top-decoration.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 20px;
+  margin: 0 auto;
+  display: block;
+}
+.top-explanation::after {
+  content: "";
+  background-image: url(../img/top-decoration.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 20px;
+  margin: 0 auto;
+  display: block;
 }
 .mv-top .pc-none {
   display: none;
@@ -230,22 +256,21 @@ figure img{
   flex-wrap: wrap;
   justify-content: center;
   /* max-width: 574px; */
-  margin: 30px auto 0;
+  margin: 13px auto 0;
   color: #fff;
-  gap: 30px 0;
+  gap: 20px 0;
 } 
 .btn-wrap p .note{
-  display: block;
   color: #000000;
   font-size: 2rem;
   font-weight: bold;
 } 
 
 .btn-first {
-  background: #39744D;
+  background: #007FAD;
   width: 390px;
   padding: 8px 0;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   /* box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.35); */
   color: #fff;
   /* font-family: "Zen Maru Gothic"; */
@@ -282,31 +307,33 @@ figure img{
 } */
 
 .btn-login {
-  background: #CB4D20;
+  background: #CE4074;
   width: 390px;
   padding: 8px 0;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   /* box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.35); */
   color: #fff;
   /* font-family: "Zen Maru Gothic"; */
   font-weight: bold;
   cursor: pointer;
   display: block;
-  margin: 12px auto 0;
+  margin: 9px auto 0;
 }
 
 .top-others {
   /* background: #FFFFFF; */
   /* width: 348px; */
   /* width: 370px; */
-  margin: 30px auto 0;
+  margin: 10px auto 0;
   border-radius: 5px;
-  padding: 4px 0 7px;
-  color: var(--color-text);
+  padding: 4px 0 18px;
+  color: #828282;
+  /* color: var(--color-text); */
   font-size: 20px;
   font-size: 2rem;
   font-weight: bold;
   /* box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.35); */
+  /* font-family: "Zen Maru Gothic"; */
 }
 
 .top-others__hover {
@@ -353,11 +380,6 @@ figure img{
   .consultation {
     z-index: 999;
   }
-  
-  .btn-wrap p .note{
-    font-size: 1.8rem;
-    text-align: left;
-  } 
 }
 #news {
   position: relative;
@@ -880,6 +902,11 @@ figure img{
   font-size: 36px;
   font-size: 3.6rem;
 }
+.connection__text {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 12px 0 40px;
+}
 /* .connection__sub-title::after {
   content: "";
   width: 40px;
@@ -890,23 +917,11 @@ figure img{
   margin-left: 10px;
 } */
 
-.connection__text {
-  text-align: center;
-  font-size: 1.6rem;
-  margin: 12px 0 40px;
-}
-
 .connection-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px 0;
-}
-
-@media screen and (max-width: 768px) {
-  .connection__text {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 769px) {
@@ -1110,62 +1125,53 @@ figure img{
 }
 
 #footer {
+  position: relative;
   background: #FFFFFF;
   /* background-image: url(../img/bg_line.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top; */
 }
+#footer .footer_bg {
+  position: relative;
+}
+
 #footer .footer_bg::before {
   content: "";
   display: block;
   width: 100%;
   height: 20px;
   background-image: url(../img/bg_line.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
-#footer .footer_bg::after {
+/* #footer .footer_bg::after {
   content: "";
   display: block;
   width: 100%;
-  height: 190px;
+  height: 170px;
   background-image: url(../img/footer.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+} */
+#footer.top-footer .footer_bg::before{
+  content: none;
 }
-#footer .topfooter_bg::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 190px;
-  background-image: url(../img/footer.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
 @media screen and (max-width: 768px) {
-  #footer .footer_bg::before {
-    background-image: url(../img/bg_line_sp.png);
-  }
-  #footer .footer_bg::after {
-    display: none;
-  }
-  #footer .topfooter_bg {
-    display: block;
-    width: 100%;
-    height: 20px;
+  #footer::before {
     background-image: url(../img/sp/bg_line.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
   }
-  #footer .topfooter_bg::after {
+  
+  #footer::after {
+    height: 60px;
+  }
+  
+  #footer .footer_bg::after {
     width: 100%;
     background-image: url(../img/sp/bg_treat2.png);
+    background-size: cover;
   }
 }
 .inquiry {
@@ -1174,7 +1180,7 @@ figure img{
   padding-top: 50px;
 }
 .inquiry__inner {
-  background: #EBEBEB;
+  background: #FFFAEE;
   padding-bottom: 20px;
   border-radius: 10px;
 }
@@ -1183,9 +1189,14 @@ figure img{
   font-weight: bold;
   font-family: "Zen Maru Gothic";
   text-align: center;
+  margin-top: 18px;
+  padding-bottom: 17px;
+}
+.inquiry__inner-top p {
+  color: #000;
 }
 .inquiry__inner-top > .title {
-  color: #8C75A6;
+  color: #CE4074;
 }
 .inquiry__sub-title {
   color: var(--color-text);
@@ -1219,12 +1230,6 @@ figure img{
   margin-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .inquiry__inner-top {
-    font-size: 1.6rem;
-  }
-}
-
 .tel-text {
   color: var(--color-text);
   font-family: "FOT-筑紫A丸ゴシック Std";
@@ -1256,7 +1261,7 @@ figure img{
 }
 
 .mail {
-  background: var(--color-button);
+  background: #CE4074;
   width: 250px;
   padding: 10px 0;
   margin: 0 auto;
@@ -2435,9 +2440,7 @@ html.no-scroll {
     display: block;
   }
   .header_inner {
-    background-image: url(../img/sp/bg_treat1.png);
-    background-position: top;
-    height: 200px;
+    height: 0;
   }
   .button {
     display: inline-block;
@@ -2465,11 +2468,11 @@ html.no-scroll {
     margin: 0 auto 20px;
   }
   .explanation p {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 15px 0;
   }
-  /* .explanation::before {
+  .explanation::before {
     content: "";
     position: absolute;
     top: -10px;
@@ -2481,13 +2484,13 @@ html.no-scroll {
   .explanation::after {
     content: "";
     position: absolute;
-    top: -10px;
+    /* top: -10px; */
     width: 100%;
     height: 10px;
     background: url(../img/bg_wave_sp.png) 0 0/100% 10px no-repeat;
     transform: scale(1,-1);
     bottom: -10px;
-  } */
+  }
 
   .mv-top {
     /* background-image: url(../img/sp/mv-sp.png); */
@@ -2501,16 +2504,16 @@ html.no-scroll {
   }
   
   .mv-top__inner {
-    background: rgba(255, 255, 255, 0.8);
+    /* background: rgba(255, 255, 255, 0.8); */
     width: 100%;
     /* width: 90%; */
     margin: 0 auto;
     /* border-radius: 8px; */
   }
   .mv-top .mv-top__inner {
-    /* height: 200px; */
     /* height: 36vh; */
-    /* padding-top: 50px; */
+    padding-top: 36px;
+    width: 84%;
   }
   .explanation {
     width: 100%;
@@ -2531,36 +2534,37 @@ html.no-scroll {
 	display: block;
 }
   .title-box {
-    padding: 20px 0;
+    padding: 20px 0 30px;
     /* padding-top: 80px; */
-    margin-bottom: 20px;
-    width: 70%;
-    margin: 0 auto 20px;
+    width: 80%;
+    margin: 0 auto;
   }
   .title {
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 18px;
+    font-size: 1.8rem;
   }
   .btn-wrap {
-    width: 90%;
+    width: 100%;
     display: block;
-    margin: 15px auto 0;
+    margin: 0 auto;
     /* margin: 30px auto; */
   }
   .btn-first {
     margin: 0 auto;
     font-size: 25px;
-    font-size: 1.8rem;
-    /* padding: 12px 20px; */
+    font-size: 2.5rem;
+    padding: 6px 20px;
     width: 100%;
+    box-sizing: border-box;
     /* width: 84%; */
   }
   .btn-login {
     margin: 0 auto;
     font-size: 25px;
-    font-size: 1.8rem;
-    /* padding: 12px 20px; */
+    font-size: 2.5rem;
+    padding: 6px 20px;
     width: 100%;
+    box-sizing: border-box;
     /* width: 84%; */
   }
   .btn-margin {
@@ -2577,7 +2581,7 @@ html.no-scroll {
   .top-others {
     background: none;
     width: -moz-fit-content;
-    width: 100%;
+    width: 90%;
     /* width: fit-content; */
     /* border-bottom: 1px solid; */
     border-radius: initial;
@@ -2585,7 +2589,7 @@ html.no-scroll {
     font-size: 19px;
     font-size: 1.9rem;
     line-height: 1;
-    margin:20px 0 0;
+    margin:20px auto 0;
     text-decoration: underline;
 
   }
@@ -2877,6 +2881,9 @@ html.no-scroll {
     border-bottom: none;
     color: #FFFFFF;
   }
+  .accordion-area__title .accordion-area-span {
+    color: #CE4074;
+  }
   .question {
     border-bottom: none;
     width: 85%;
@@ -2930,7 +2937,7 @@ html.no-scroll {
     justify-content: space-between;
   }
   .btn-sp__tel {
-    background: var(--color-main);
+    background: #FFFAEE;
     width: -moz-fit-content;
     width: fit-content;
     display: flex;
@@ -2953,7 +2960,7 @@ html.no-scroll {
     margin-right: 5px;
   }
   .btn-sp__mail {
-    background: var(--color-main);
+    background: #FFFAEE;
     width: -moz-fit-content;
     width: fit-content;
     display: flex;
@@ -3420,7 +3427,9 @@ html.no-scroll {
     margin-bottom: 50px;
   }
   #top-main {
-    padding-top: 0px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 77px;
     /* overflow: hidden; */
   }
   .headerLogoScroll {
@@ -3430,9 +3439,10 @@ html.no-scroll {
 @media screen and (max-width: 480px) {
   .mv-top {
     background-position: 0 110px;
-    margin-bottom: 30px;
-    background-color: #FFFAF7;
+    margin-bottom: 0;
+    background-color: #FFFAEE;
     background-repeat: no-repeat;
+    padding-bottom: 86px;
   }
   input::-webkit-input-placeholder {
     font-size: 14px;
@@ -3544,13 +3554,13 @@ html.no-scroll {
 }
 
 .guestsBar {
-  background: var(--color-main);
+  background: #FFFAEE;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .guestsBar {
-    background: var(--color-main);
+    background: #FFFAEE;
   }
 }
 .guestsBar__inner {
@@ -3613,7 +3623,7 @@ html.no-scroll {
   background-repeat: no-repeat;
   background-size: cover;
   width: 27px;
-  height: 27px;
+  height: 28px;
   position: relative;
   bottom: -5px;
   margin-right: 4px;
@@ -3627,7 +3637,7 @@ html.no-scroll {
 
 .rightColumn_points {
   color: #FFFFFF;
-  background-color: var(--color-title);
+  background-color: #CE4074;
   font-family: "fot-tsukuardgothic-std", sans-serif;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 0 0 8px 8px;
@@ -3905,7 +3915,8 @@ html.no-scroll {
     font-size: 12px;
     font-size: 1.2rem;
     color: var(--color-text);
-    background: var(--color-main);
+    background: #FFFAEE;
+    /* background: var(--color-main); */
     padding: 0;
     box-shadow: none;
     border-radius: 0;
@@ -3946,7 +3957,8 @@ html.no-scroll {
     margin-top: 5px;
   }
   .utility_navigation_logo {
-    width: 300px;
+    /* width: 300px; */
+    width: 20%;
     margin-left: 15px;
   }
   #search {
@@ -4217,11 +4229,13 @@ html.no-scroll {
 }
 
 .citizen_wrap {
-  width: 350px;
+  width: 230px;
+  /* width: 350px; */
   margin: 16px auto 0;
   min-height: 120px;
   display: grid;
-  place-items: center;
+  justify-content: flex-end;
+  /* place-items: center; */
 }
 .citizen_wrap .citizen {
   text-align: center;
@@ -4338,7 +4352,7 @@ html.no-scroll {
   width: 240px;
   height: 50px;
   border-radius: 25px;
-  background: var(--color-button);
+  background: #CE4074;
   color: #fff;
   font-size: 16px;
   font-size: 1.6rem;
@@ -5010,4 +5024,58 @@ div#undercolumn_entry .message {
 }
 .stt-text {
   display: none;
+}
+.inner__wrapper {
+  background-color: #FFFAEE;
+  height: 100vh;
+}
+.Wrapper {
+  background-color: #FFF;
+  /* height: 100vh; */
+}
+.u-textsize {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .top-explanation::before {
+    background-image: url(../img/top-decoration_sp.png);
+    background-size: 100%;
+  }
+  .top-explanation::after {
+    background-image: url(../img/top-decoration_sp.png);
+    background-size: 100%;
+  }
+  .btn-wrap p .note {
+    padding: 25px 0 20px;
+    display: block;
+    text-align: left;
+  }
+  .inquiry__inner-top {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    line-height: 1.8;
+  }
+  .Wrapper {
+    height: 100%;
+  }
+}
+.u-error {
+  background: #FFF;
+}
+.u-error .header_inner {
+  background: none;
+}
+@media screen and (max-width: 767px) {
+  #footer .footer_bg::before {
+    background-size: contain
+  }
+  .inner__wrapper {
+    height: auto;
+  }
+  .connection__text {
+    display: none;
+  }
 }

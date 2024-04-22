@@ -6,10 +6,10 @@
 
 :root {
     --color-main: #EBEBEB;
-    --color-sub: #F9EDE1;
-    --color-button: #D84800;
+    --color-sub: #FFFAEE;
+    --color-button: #CE4074;
     --color-text: #000000;
-    --color-title:#D84800;     
+    --color-title:#CE4074;     
 }
 
 @media print, screen and (min-width: 768px) {
@@ -415,7 +415,8 @@ screen and (min-width: 768px) {
 
     .p-login__goods--btn {
         background: transparent;
-        color: var(--color-main);
+        color: #000;
+        /* color: var(--color-main); */
         padding: 10px 22px;
         border-radius: 0;
         font-size: 1.6rem;
@@ -1707,7 +1708,8 @@ screen and (min-width: 768px) {
 .archiveLead__num {
     font-size: 1.6rem;
     font-weight: bold;
-    color: var(--color-text);
+    color: #CE4074;
+    /* color: var(--color-text); */
 }
 
 .archiveLead__anchers_pc {
@@ -2871,10 +2873,13 @@ input[type="number"] {
     padding-left: 2em;
 }
 
+
+
 .infosComfirm__note a {
     color: #230102;
     font-weight: bold;
 }
+
 
 .checkbox--text {
     color: #230102;
@@ -2901,7 +2906,7 @@ input[type="number"] {
     }
 
     .infosComfirm {
-        margin: 30px 0;
+        margin-top: 30px;
         text-align: left;
     }
 
@@ -2910,9 +2915,6 @@ input[type="number"] {
         display: block;
     text-align: left;
     display: flex;
-    }
-    .infosaddComfirm {
-        margin-top: 20px;
     }
     .check_guide .checkmark {
         width: 30px !important;
@@ -3703,7 +3705,8 @@ input[type=text][name=addr01] {
 }
 
 .p-item__point {
-    color: var(--color-text);
+    color: #CE4074;
+    /* color: var(--color-text); */
     font-size: 35px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -3742,7 +3745,8 @@ input[type=text][name=addr01] {
     text-align: center;
     border-radius: 2px;
     margin: 10px 5px 0;
-    background: #DD7E80;
+    background: #007FAD;
+    /* background: #DD7E80; */
     color: #ffffff;
 }
 
@@ -3859,8 +3863,9 @@ input[type=text][name=addr01] {
 }
 
 .is-soldout  {
-    background: #707070;
-    border-bottom: 5px solid #505050;
+    background: #CE4074;
+    /* background: #707070;
+    border-bottom: 5px solid #505050; */
 }
 
 .p-item__table {
@@ -5805,6 +5810,7 @@ input[type="radio"]:checked {
     font-size: 15px;
     font-family: Zen Maru Gothic;
     font-weight: bold;
+    color: #FFF;
 }
 
 .p-gihu__which--list {
@@ -6189,7 +6195,7 @@ span.modal-close img {
 .circle {
     width: 100px;
     height: 100px;
-    background-color: #f0d6c9;
+    background-color: #f5d2db;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -7121,7 +7127,7 @@ text-decoration: none;
 .tableInfo span.tableInfo_data {
     display: flex;
     align-items: center;
-    /* gap: 0 40px; */
+    gap: 0 40px;
     border: 1px solid #707070;
     padding: 6px 15px;
     margin-top: 10px;
@@ -7155,7 +7161,7 @@ margin-right: 5px;
 
 @media screen and (max-width: 767px) {
     .tableInfo span.tableInfo_data {
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: flex-start;
     }
 }

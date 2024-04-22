@@ -10,10 +10,6 @@
   background: #FFFFFF;
 }
 
-#login-top-main .swiper{
-  margin: 40px auto 100px;
-}
-
 .login-product {
   max-width: 1008px;
   margin: 0 auto;
@@ -26,7 +22,8 @@
   font-size: 36px;
   font-size: 3.6rem;
   margin-bottom: 30px;
-  color: var(--color-title);
+  color: #CE4074;
+  /* color: var(--color-title); */
 }
 .login-product__title .inner {
   margin-top: 40px;
@@ -675,7 +672,6 @@
   max-width: initial;
   margin: 0 auto;
   padding-bottom: 120px;
-  margin-top: 140px;
 }
 #login-top-main .connection-image {
   max-width: 1020px;
@@ -738,9 +734,6 @@
 
 /* 画像サイズ調整 */
 @media screen and (max-width: 768px) {
-  #login-top-main .swiper{
-    margin: 40px auto;
-  }
   .swiper-slide {
     width: 100%;
   }
@@ -1074,7 +1067,6 @@
   }
   #login-top-main .connection {
     padding-bottom: 40px;
-    margin-top: 90px;
   }
   .numbero1 {
     padding: 8px 14px;
