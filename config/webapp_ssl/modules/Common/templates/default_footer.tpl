@@ -61,7 +61,7 @@
                 </li>
             </ul>
         </div>
-        <p id="copywriter">©2024 <br class="pc-none">なかの First Birthday<br class="pc-none"></p>
+        <p id="copywriter">©2024 <br class="pc-none">すみだ区バースデーサポート<br class="pc-none"></p>
     </article>
     </div>
 </footer>

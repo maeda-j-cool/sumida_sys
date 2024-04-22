@@ -32,6 +32,7 @@
 <body id="body">
   {include file=$smarty.const.WT_COMMON_TEMPLATE_DIR|cat:"gtm_body.tpl"}
   <div class="Wrapper">
+    <div class="inner__wrapper">
     <header class="header">
       <div class="header_inner">
       </div>
@@ -72,8 +73,9 @@
         </div>
     </article>
 </main>
+</div>
   </div>
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="topfooter_bg">
     <section class="inquiry">
         <div class="inquiry__inner-top">
@@ -84,7 +86,7 @@
         </div>
     </section>
     </div>
-  </footer>
+  </footer> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="/assets/js/common.js"></script>
