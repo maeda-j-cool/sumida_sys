@@ -1,0 +1,26 @@
+ErrorDocument 403 /systemerror/forbidden.html
+ErrorDocument 404 /systemerror/not_found.html
+
+AuthType Basic
+AuthName "Nakano Basic Auth"
+AuthUserFile /var/www/bakusoku-tokyofb/nakano/passwd/.htpasswd
+Require valid-user
+
+<Files ".user.ini">
+    Require all denied
+</Files>
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^(.*\.(jpg|png|gif|js|css|htc|ico|svg|map))$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+
+# memo
+# .htmlをphpとして動作させるための設定(nginx)
+# /etc/php-fpm.d/www.conf に以下の行を追加
+# security.limit_extensions = .php .html
+<FilesMatch \.(php|htm|html)$>
+SetHandler "proxy:unix:/run/php-fpm/www.sock|fcgi://localhost"
+</FilesMatch>

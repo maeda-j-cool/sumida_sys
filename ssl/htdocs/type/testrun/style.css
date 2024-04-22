@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+#main {
+	padding-top: 70px;
+}
+
+#app-title {
+	font-family: "Courier New", "Courier", "平成角ゴシック", "Osaka-等幅", "ＭＳ ゴシック", monospace;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+	font-size: 24px;
+	color: #666;
+	text-decoration: none;
+}
+
+.mono {
+	font-family: "平成角ゴシック", "Osaka-等幅", "ＭＳ ゴシック", "Courier", "Courier New", monospace;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.required {
+	color: #f00;
+	font-size: 11px;
+	vertical-align: top;
+}
+.required:before {
+	content: "\A";
+	white-space: pre;
+}
+.required:after {
+	content: "[必須]";
+}
+
+.no-input {
+	color: #ccc;
+}
+.no-input:after {
+	content: "未設定";
+}
+
+.no-border-t {
+	border-top-width: 0;
+}
+.no-border-b {
+	border-bottom-width: 0;
+}
+.no-border-l {
+	border-left-width: 0;
+}
+.no-border-r {
+	border-right-width: 0;
+}
+
+.border {
+	border: 1px solid #ddd;
+}
+
+.border-b1 {
+	border-bottom: 1px solid #ddd;
+}
+
+.input-confirm .form-group {
+	margin-bottom: 8px;
+}
+
+table.table thead .sorting {
+	background: rgba(0, 0, 0, 0) url("../images/sort_both.png") no-repeat scroll right center;
+}
+table.table thead .sorting-asc {
+	background: rgba(0, 0, 0, 0) url("../images/sort_asc.png") no-repeat scroll right center;
+}
+table.table thead .sorting-desc {
+	background: rgba(0, 0, 0, 0) url("../images/sort_desc.png") no-repeat scroll right center;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+	vertical-align: middle
+}
+table.table thead th {
+	white-space: nowrap;
+}
+#search-result > thead > tr > th,
+#search-result > tbody > tr > th,
+#search-result > tfoot > tr > th,
+#search-result > thead > tr > td,
+#search-result > tbody > tr > td,
+#search-result > tfoot > tr > td {
+	padding: 6px;
+	font-size: 11px;
+}
+
+.confirm-value {
+	background-color: #fff;
+	padding: 6px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.item-tag {
+	border: 1px solid #fff;
+	border-radius: 8px;
+	padding: 2px 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.ctx {
+	display: none;
+	position: absolute;
+}
+.ctx ul {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #666;
+	list-style-type: none;
+	background-color: #fff;
+	font-size: 11px;
+}
+.ctx li {
+	padding: 5px 10px;
+	cursor: default;
+}
+.ctx li:hover {
+	background-color: #dc143c;
+	color: #fff;
+	cursor: pointer;
+}

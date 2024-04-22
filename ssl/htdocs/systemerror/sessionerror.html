@@ -1,0 +1,57 @@
+<?php include_once(dirname(__DIR__) . '/static_config.php'); ?>
+<!DOCTYPE html>
+<html class="html" lang="jp">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap"> -->
+<link href="/assets/font/Inter,Zen_Maru_Gothic/Zen_Maru_Gothic/ZenMaruGothic-Bold.ttf" rel="preconnect">
+<link href="/assets/font/Inter,Zen_Maru_Gothic/Zen_Maru_Gothic/ZenMaruGothic-Black.ttf" rel="preconnect">
+<link href="/assets/font/Inter,Zen_Maru_Gothic/Zen_Maru_Gothic/ZenMaruGothic-Light.ttf" rel="preconnect">
+<link href="/assets/font/Inter,Zen_Maru_Gothic/Zen_Maru_Gothic/ZenMaruGothic-Medium.ttf" rel="preconnect">
+<link href="/assets/font/Inter,Zen_Maru_Gothic/Zen_Maru_Gothic/ZenMaruGothic-Regular.ttf" rel="preconnect">
+<link rel="stylesheet" href="/assets/css/reset.css">
+<link rel="stylesheet" href="/assets/css/common.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/common-2.css">
+<link rel="stylesheet" href="/assets/css/contents.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://d.shutto-translation.com/trans.js?id=1668"></script>
+<script>
+    (function (d) {
+        var config = {
+                kitId: 'btv7ivp',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+<title>セッションエラー | 中野区出産・子育て応援ギフト「中野区ファーストバースデーサポート」</title>
+</head>
+<body>
+<div class="Wrapper">
+<?php include_once(INCLUDE_PATH_HEADER); ?>
+<section id="section404">
+    <div class="s404_wrap">
+        <span class="icon"></span>
+        <p class="">一定時間、操作をされていない可能性があるなどの<br class="pc_only">理由により操作が続行できなくなりました。</p>
+        <p>続けてご利用いただくには<br class="pc_only">
+            恐れ入りますが、改めてログインをお願いいたします。</p>
+<?php if ($isLogin || $isVirtualLogin): ?>
+        <p class="btn"><a href="<?php echo $controller->getActionUrl('webapp_ssl', '', ''); ?>">トップ画面へ</a></p>
+<?php else: ?>
+        <p class="btn"><a href="/">ログイン画面へ</a></p>
+<?php endif; ?>
+    </div>
+</section>
+</div>
+<?php include_once(INCLUDE_PATH_FOOTER); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/text-size.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+
+.l-section__title2 span {
+	display: block;
+	padding-bottom: 3px;
+	font-size: 18px;
+}
+#guideTable .flow＿number {
+    width: 24%;
+}
+#guideTable .flow＿number.non {
+    width: 0;
+}
+#guideTable .flow_title {
+	text-align: left;
+    padding: 14px 20px 20px 20px;
+}
+#guideTable .flow_title span {
+	color: #a3c99b;
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding-right: 8px;
+}
+#guideTable .cnt p.mb {
+	margin-bottom: 10px;
+}
+#guideTable .cnt p.mt {
+	margin-top: 20px;
+}
+#guideTable .cnt dl.qa {
+}
+#guideTable .cnt dl.qa dt {
+	padding-bottom: 10px;
+}
+#guideTable .cnt dl.qa dt::before {
+	content: 'Q.';
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #a3c99b;
+	padding-right: 8px;
+}
+#guideTable .cnt dl.qa dd {
+	padding-bottom: 16px;
+}
+#guideTable .cnt dl.qa dd::before {
+	content: 'A.';
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #F9C;
+	padding-right: 8px;
+}
+#guideTable .allergybox {
+	display: block;
+	overflow: hidden;
+	padding: 20px 180px 0;
+}
+#guideTable .allergybox .box_r {
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+#guideTable .allergybox p.ad01 {
+	margin-top: 10px;
+	padding: 0;
+	text-align: center;
+}
+#guideTable .allergybox p.ad02 {
+	margin: 80px 0 0 20px;
+	padding: 0;
+}
+#guideTable .allergybox .box_l {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+#guideTable .support_box .support_cnt .formbtn {
+	margin: 20px 0 0 0;
+}
+#guideTable .support_box .support_cnt .formbtn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 340px;
+	height: 50px;
+	border-radius: 25px;
+	background: #a3c99b;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 0 auto;
+}
+.faqbtn {
+	margin: 30px 0 0 0;
+}
+.faqbtn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 340px;
+	height: 50px;
+	border-radius: 25px;
+	background: #a3c99b;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+#guideTable .support_box .support_cnt .formbtn a:hover {
+	opacity: 0.6;
+	transition: 1.0s;
+}
+#guideTable .support_box_mb {
+	margin-bottom: 50px;
+}
+#guideTable .support_box {
+	position: relative;
+}
+#guideTable .support_box .kidslogo {
+	position: absolute;
+	width: 11%;
+	top: 102px;
+	left: 180px;
+}
+#guideTable.kids h3::before {
+    content: "★";
+	color: #ff6600;
+	padding-right: 3px;
+	font-size: 1.3rem;
+}
+#guideTable h5 {
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    padding-left: 12px;
+    padding-left: 1.6rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 767px) {
+#guideTable .flow_box.spl {
+	margin-top: -20px;
+}
+#guideTable .flow＿number {
+    width: 100%;
+}
+#guideTable .flow_title {
+    padding: 10px 14px 14px 14px;
+	margin: 10px 0;
+}
+#guideTable .flow_title span {
+	font-size: 1.2rem;
+}
+#guideTable .allergybox {
+	padding: 0;
+}
+#guideTable .allergybox .box_r {
+	float: none;
+	display: block;
+	width: 100%;
+}
+#guideTable .allergybox .box_r.spl {
+	margin-top: -12px;
+}
+#guideTable .allergybox .box_l {
+	float: none;
+	display: block;
+	width: 100%;
+}
+#guideTable .allergybox p.ad02 {
+	margin: 14px 0 0 0; 
+}
+#guideTable .support_box_mb {
+	margin-bottom: 30px;
+}
+#guideTable .cnt p {
+    padding-left: 0;
+}
+#guideTable .cnt ul li {
+	margin-left: 1.5rem;
+}
+#guideTable .cnt dl dt {
+    padding-left: 0;
+}
+#guideTable .cnt dl dd {
+    padding-left: 1rem;
+}
+#guideTable h5 {
+    line-height: 1.3em;
+}
+#guideTable .support_box .kidslogo {
+	width: 28%;
+	top: 88px;
+	left: 36%;
+	right: 36%;
+}
+#guideTable .support_box .support_cnt {
+    padding: 30px 18px;
+}
+#guideTable .support_box .support_cnt p.ad03 {
+    padding-top: 80px;
+}
+#guideTable .support_box .support_cnt .formbtn a {
+	width: 100%;
+	height: 50px;
+}
+}
+
+.p-outline dl dd .attention{
+	margin: 1em 1em 0;
+}
+.p-outline dl dd .attention p{
+	font-size: 1.4em;
+	color: #2db312;
+	margin-top: 10px;
+}
+.p-outline dl dd .attention .footnote{
+	font-size: 0.8em;
+	color: #000;
+	margin-top: 5px;
+}
+.p-outline dl dd .contact {
+	margin: 1.5em 1em 0;
+}
+.p-outline dl dd .contact p {
+	margin-top: 5px;
+	font-size:1.2em;
+}
+.p-outline dl dd .contact p.tell {
+	font-size: 2em;
+	color: #2db312;
+	font-weight: bold;
+}
+.service__title span{
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: normal;
+	margin: 0 1em;
+}
+.service__list--item__title span{
+	font-size:0.7em;
+}
+.service__list--item__text{
+	width: 90%;
+	font-size: 0.8em;
+	line-height:1.5;
+}
+.service__list--item a::before {
+	font-family: "Font Awesome 5 Free";
+    content: '\f35d';
+	font-weight: 900;
+	font-size:20px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    margin-top: -20px;
+	border-top: none;
+    border-left: none;
+	width: auto;
+    height: auto;
+	bottom: auto;
+	transform: rotate(0deg);
+}
+@media screen and (max-width: 767px) {
+.p-outline dl dd .attention{
+	margin: 1em 0 0;
+}
+.p-outline dl dd .contact {
+	margin: 1.5em 0 0;
+	font-size:1em;
+}
+.service__title span{
+	margin:0;
+}
+.service__list--item__text{
+	width: 100%;
+    font-size: 12px;
+    line-height: 1.6
+}
+.service__list--item a::before {
+	font-size:14px;
+	right: 10px;
+    margin-top: -14px;
+}
+}

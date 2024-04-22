@@ -1,0 +1,1214 @@
+@charset "UTF-8";
+:root {
+  --color-main: #EBEBEB;
+  --color-sub: #F9EDE1;
+  --color-title:#D84800;
+  --color-button: #D84800;
+}
+
+#login-top-main {
+  background: #FFFFFF;
+}
+
+#login-top-main .swiper{
+  margin: 40px auto 100px;
+}
+
+.login-product {
+  max-width: 1008px;
+  margin: 0 auto;
+  padding: 130px 0 100px;
+}
+.login-product__title {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 36px;
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+  color: var(--color-title);
+}
+.login-product__title .inner {
+  margin-top: 40px;
+}
+
+.product-box1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.product-box1__item {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+.product-box1__item .text {
+  color: var(--color-title);
+  font-weight: bold;
+  text-align: left;
+  width: -moz-fit-content;
+  width: fit-content;  
+  margin: 20px 16px 10px;
+}
+.product-box1__item .productList__point {
+  margin: 0 16px 50px;
+}
+.product-box1__item .inner {
+  margin-top: 40px;
+}
+
+.product-box2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.product-box2__item {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.35);
+}
+.product-box2__item .text {
+  color: var(--color-title);
+  font-weight: bold;
+  text-align: left;
+  width: -moz-fit-content;
+  width: fit-content;  
+  margin: 20px 16px 10px;
+}
+.product-box2__item .productList__point {
+  margin: 0 16px 40px;
+}
+.product-box2__item .inner {
+  margin-top: 20px;
+}
+
+.product-box3 {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.product-box3__item {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  max-width: 22.8%;
+}
+.product-box3__item .text {
+  color: var(--color-title);
+  font-weight: bold;
+  text-align: left;
+  width: -moz-fit-content;
+  width: fit-content; 
+  margin: 20px 16px 10px;
+}
+.product-box2__item .productList__point {
+  margin: 0 16px 50px;
+}
+.product-box3__item .inner {
+  margin-top: 20px;
+}
+
+.product-box3__item .productList__point {
+  margin: 0 16px 50px;
+}
+
+.numbero1 {
+  background: #B49000;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero2 {
+  background: #89989B;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero3 {
+  background: var(--color-main);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero4 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero5 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero6 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero7 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero8 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero9 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero10 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 14px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.numbero11 {
+  background: var(--color-sub);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--color-main);
+  position: absolute;
+  right: 14px;
+  padding: 10px 14px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  top: 10px;
+  display: none;
+}
+
+.product-figure {
+  display: inline-block;
+  height: 140px;
+}
+.product-figure img {
+  height: 100%;
+}
+
+.look-btn {
+  background: var(--color-title);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50px;
+  margin: 50px auto;
+}
+.look-btn__link {
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: 10px 70px;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "FOT-筑紫A丸ゴシック Std";
+}
+
+.login-point__title {
+  font-family: "Zen Maru Gothic";
+  font-size: 36px;
+  font-size: 3.6rem;
+  text-align: center;
+  color: var(--color-title);
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.login-point__point {
+  background: var(--color-title);
+  border-radius: 20px;
+  display: flex;
+  width: 100%;
+  max-width: 240px;
+}
+.login-point__point .text {
+  color: #fff;
+  font-weight: bold;
+  font-family: "FOT-筑紫A丸ゴシック Std";
+  font-size: 20px;
+  font-size: 2rem;
+  width: 100%;
+  /* width: 90%; */
+  position: relative;
+  padding: 4px 0px 4px 20px;
+  word-wrap: break-word;
+}
+.login-point .text::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-top: solid 2px #fff;
+  /* 好みで色を変えてください */
+  border-right: solid 2px #fff;
+  /* 好みで色を変えてください */
+  transform: rotate(45deg);
+  position: absolute;
+  right: 10%;
+  top: 20px;
+}
+
+.point-box {
+  display: flex;
+  max-width: 1008px;
+  margin: 0 auto 100px;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.special-feature {
+  max-width: 1008px;
+  margin: 0 auto;
+}
+.special-feature__inner {
+  text-align: center;
+}
+.special-feature__inner .title {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Zen Maru Gothic";
+  font-size: 36px;
+  font-size: 3.6rem;
+  color: var(--color-title);
+  position: relative;
+  max-width: 422px;
+  margin: 0 auto;
+}
+.special-feature__inner .title::before {
+  content: "";
+  width: 40px;
+  height: 90px;
+  background-image: url(../img/object-left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+.special-feature__inner .title::after {
+  content: "";
+  width: 40px;
+  height: 90px;
+  background-image: url(../img/object-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+.special-feature__inner .text {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.special-feature__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.special-feature__box .item1 {
+  background-image: url(../img/special-feature1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item1__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+.special-feature__box .item2 {
+  background-image: url(../img/special-feature2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item2__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+.special-feature__box .item3 {
+  background-image: url(../img/special-feature3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item3__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+.special-feature__box .item4 {
+  background-image: url(../img/special-feature4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item4__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+.special-feature__box .item5 {
+  background-image: url(../img/special-feature5.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item5__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+.special-feature__box .item6 {
+  background-image: url(../img/special-feature6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 504px;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.special-feature__box .item6__text {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 31px;
+  font-size: 3.1rem;
+  color: var(--color-title);
+  text-align: center;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+}
+
+.seek {
+  max-width: 1008px;
+  margin: 50px auto 100px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.moon-age {
+  text-align: center;
+  width: 50%;
+}
+.moon-age__title {
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 36px;
+  font-size: 3.6rem;
+  margin-bottom: 40px;
+  color: var(--color-title);
+}
+.moon-age__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.moon-age__list .btn {
+  border: 1px dashed var(--color-title);
+  border-radius: 20px;
+  width: 40%;
+  background: #fff;
+}
+.moon-age__list .text {
+  display: flex;
+  color: var(--color-title);
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  padding: 5px 0;
+  justify-content: center;
+}
+
+.brand {
+  text-align: center;
+  width: 50%;
+}
+.brand__title {
+  font-weight: bold;
+  font-family: "Zen Maru Gothic";
+  font-size: 36px;
+  font-size: 3.6rem;
+  margin-bottom: 40px;
+  color: var(--color-title);
+}
+.brand__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.brand__list .btn {
+  border: 1px dashed var(--color-title);
+  border-radius: 20px;
+  width: 40%;
+  background: #fff;
+}
+.brand__list .text {
+  display: flex;
+  color: var(--color-title);
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 2rem;
+  padding: 5px 0;
+  justify-content: center;
+}
+.brand__list::after {
+  content: "";
+  width: 40%;
+  display: block;
+}
+
+.citizen .child-sub-title {
+  position: relative;
+}
+.citizen .child-sub-title::before {
+  content: "";
+  width: 130px;
+  height: 33px;
+  display: flex;
+  background-image: url(../img/citizens.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 27%;
+  top: -10px;
+}
+.citizen .child-text {
+  margin-bottom: 50px;
+}
+
+.child-rearing-login {
+  background: #FFFFFF;
+  padding-top: 100px;
+}
+
+.child-rearing-login .portal-category {
+  background: #9346F8;
+}
+
+#login-top-main .connection {
+  background: #FFFFFF;
+  max-width: initial;
+  margin: 0 auto;
+  padding-bottom: 120px;
+  margin-top: 140px;
+}
+#login-top-main .connection-image {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.dummy {
+  opacity: 0;
+  pointer-events: none;
+  display: none;
+}
+
+#login-top-main .swiper-button-prev {
+  left: 0;
+  right: 775px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+#login-top-main .swiper-button-next {
+  left: 775px;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+/* 前へ次への矢印カスタマイズ */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 28px;
+  height: 31px;
+}
+
+/* 前へ次への矢印カスタマイズ */
+#login-top-main .swiper-button-prev::after,
+#login-top-main .swiper-button-next::after {
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 50px;
+  margin: auto;
+  width: 50px;
+}
+
+/* 前への矢印カスタマイズ */
+.swiper-button-prev::after {
+  background-image: url(../img/left-arrow.png);
+}
+
+/* 次への矢印カスタマイズ */
+.swiper-button-next::after {
+  background-image: url(../img/right-arrow.png);
+}
+
+.swiper-slide {
+  width: 738px;
+}
+
+/* 画像サイズ調整 */
+@media screen and (max-width: 768px) {
+  #login-top-main .swiper{
+    margin: 40px auto;
+  }
+  .swiper-slide {
+    width: 100%;
+  }
+  #login-top-main {
+    padding-top: 170px;
+  }
+  .point-box .sp-none {
+    display: none;
+  }
+  .swiper-link {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+  }
+  #login-top-main .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 1%);
+    left: auto;
+  }
+  #login-top-main .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 1%);
+    right: auto;
+  }
+  #login-top-main .swiper-button-prev::after,
+  #login-top-main .swiper-button-next::after {
+    background-size: 90%;
+  }
+  .login-related {
+    background-image: url(../img/sp/bg_wave_sp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  }
+  .login-related__box {
+    display: flex;
+    justify-content: space-around;
+    width: 88%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .login-related__box .item {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .login-related__box .item__text {
+    font-weight: bold;
+    font-family: "Zen Maru Gothic";
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: var(--color-text);
+  }
+  .login-related__box .item__image {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .login-product {
+    padding: 30px 0 20px;
+  }
+  .login-product__title {
+    font-size: 25px;
+    font-size: 2.5rem;
+  }
+  .product-box1 {
+    width: 90%;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+  .product-box1__item {
+    width: 44%;
+    display: block;
+    box-shadow: none;
+  }
+  .product-box1::after {
+    content: "";
+    display: block;
+    width: 44%;
+  }
+  .product-box2 {
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product-box2__item {
+    width: 44%;
+    display: block;
+    box-shadow: none;
+  }
+  .product-box2::after {
+    content: "";
+    display: block;
+    width: 44%;
+  }
+  .product-box3 {
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product-box3__item {
+    width: 44%;
+    display: block;
+    box-shadow: none;
+  }
+  .product-box3::after {
+    content: "";
+    display: block;
+    width: 44%;
+  }
+  .look-btn {
+    display: none;
+  }
+  .login-point__title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .special-feature__inner .title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .special-feature__inner .title::before {
+    left: 20%;
+    top: -10px;
+    width: 30px;
+  }
+  .special-feature__inner .title::after {
+    right: 20%;
+    top: -10px;
+    width: 30px;
+  }
+  .login-point__point {
+    width: 32%;
+  }
+  .login-point__point .text {
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding: 4px 0;
+    text-align: center;
+  }
+  .login-point .text::after {
+    display: none;
+  }
+  .point-box {
+    margin: 0 auto 50px;
+  }
+  .special-feature {
+    background: url(../img/sp/special-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 20px;
+  }
+  .special-feature__box {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .special-feature__inner {
+    margin-bottom: 20px;
+  }
+  .special-feature__box .item1 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature1_sp.png);
+    width: 100%;
+  }
+  .special-feature__box .item1__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item2 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature2_sp.png);
+    width: 100%;
+  }
+  .special-feature__box .item2__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item3 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature3_sp.png);
+  }
+  .special-feature__box .item3__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item4 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature4_sp.png);
+  }
+  .special-feature__box .item4__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item5 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature5_sp.png);
+  }
+  .special-feature__box .item5__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item6 {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url(../img/special-feature6_sp.png);
+  }
+  .special-feature__box .item6__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0 90px;
+  }
+  .special-feature__box .item7 {
+    background-size: auto;
+    background-position: center -30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .special-feature__box .item7__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .special-feature__box .item8 {
+    background-size: auto;
+    background-position: center -30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .special-feature__box .item8__text {
+    padding: 40px 0;
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .seek {
+    flex-wrap: wrap;
+    margin: 50px auto;
+  }
+  .moon-age {
+    width: 100%;
+  }
+  .moon-age__list {
+    gap: 10px 0;
+    justify-content: space-evenly;
+  }
+  .moon-age__list .btn {
+    width: 40%;
+  }
+  .moon-age__list .text {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .moon-age__title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .brand {
+    width: 100%;
+  }
+  .brand__list {
+    gap: 10px 0;
+    justify-content: space-evenly;
+  }
+  .brand__list .btn {
+    width: 40%;
+  }
+  .brand__list .text {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .brand__title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .point-box::after {
+    content: "";
+    display: block;
+    width: 32%;
+  }
+  .brand__list::after {
+    width: 40%;
+  }
+  .login-tabs .tab_item:nth-of-type(2) {
+    border-bottom: 1px solid;
+  }
+  .child-rearing-login {
+    padding-top: 50px;
+  }
+  .citizen .child-sub-title::before {
+    left: 8%;
+    display: none;
+  }
+  #login-top-main .connection {
+    padding-bottom: 40px;
+    margin-top: 90px;
+  }
+  .numbero1 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero2 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero3 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero4 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero5 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero6 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero7 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero8 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero9 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero10 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .numbero11 {
+    padding: 8px 14px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .dummy {
+    display: inline-block;
+  }
+  .product-box1__item .text {
+    margin: 20px 0 40px;
+  }
+  .product-box2__item .text {
+    margin: 20px 0 40px;
+  }
+  .product-box3__item .text {
+    margin: 20px 0 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .login-related__box {
+    width: auto;
+  }
+  .login-product__title {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .product-box1__item .text {
+    margin: 20px 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .product-box1__item .inner {
+    padding: 0 5px;
+  }
+  .product-box2__item .text {
+    margin: 20px 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .product-box2__item .inner {
+    padding: 0 5px;
+  }
+  .product-box3__item .text {
+    margin: 20px 0;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .product-box3__item .inner {
+    padding: 0 5px;
+  }
+  .login-point__point .text {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .special-feature__inner .text {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .moon-age__list .text {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .moon-age__list .text {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .brand__list .text {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+}
+.child-rearing__wrap .citizen {
+  position: absolute;
+  top: -30px;
+  left: 28.5%;
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-title);
+}
+
+@media screen and (max-width: 768px) {
+  .child-rearing__wrap .citizen {
+    display: none;
+  }
+}/*# sourceMappingURL=top-login.css.map */

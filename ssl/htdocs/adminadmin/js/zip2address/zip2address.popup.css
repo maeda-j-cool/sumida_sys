@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#contents {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+/*
+#zipcode-list table {
+    border-collapse: collapse;
+    border: 1px solid #999;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 8px 0;
+}
+#zipcode-list table th {
+    color: #fff;
+    background-color:#0033cc;
+    border: 1px solid #999;
+    padding: 4px 8px;
+}
+#zipcode-list table td {
+    color: #000;
+    border: 1px solid #999;
+    padding: 2px 8px;
+}
+.zipcode-list-close-button {
+    color: #ccc;
+    font-weight: bold;
+    background-color: #666;
+    border: 1px solid #333;
+    font-size: 11px;
+    padding: 4px 8px;
+}
+.zipcode-list-close-button {
+    background-color: #999;
+    color: #fff;
+    cursor: pointer;
+}
+*/

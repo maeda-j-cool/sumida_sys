@@ -1,0 +1,64 @@
+<div id="contents" class="container">
+<div class="main bs-component" id="zipcode-list">
+<div class="text-left">
+  <button class="btn btn-default zipcode-list-close-button">閉じる</button>
+</div>
+<h4>住所検索結果</h4>
+<p>対象の郵便番号を選択してください。</p>
+<table class="table table-bordered table-responsive">
+  <thead>
+    <tr>
+      <th class="col-xs-2">郵便番号</th>
+      <th class="col-xs-2">都道府県</th>
+      <th class="col-xs-3">市区町村</th>
+      <th class="col-xs-5">町域名</th>
+    </tr>
+  </thead>
+  <tbody>
+{{each zipcodeList}}
+    <tr>
+      <td class="col-xs-2"><a href="javascript:void(0);" class="zipcode-select">${zipcode1}-${zipcode2}</a></td>
+      <td class="zip-addr1 col-xs-2">${address1}</td>
+      <td class="zip-addr2 col-xs-3">${address2}</td>
+      <td class="zip-addr3 col-xs-5">${address3}</td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+<div class="text-right" style="margin-bottom:12px;">
+  <button class="btn btn-default zipcode-list-close-button">閉じる</button>
+</div>
+
+<script src="/js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('<link/>').attr({
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: '/css/bootstrap.min.css'
+    }).appendTo('head');
+    $('.zipcode-list-close-button').click(function() {
+        window.close();
+    });
+
+    $('a.zipcode-select').click(function() {
+        if (window.opener) {
+            if (!window.opener.closed) {
+                var zip = $(this).html().split('-');
+                if ('${idZip2}') {
+                    window.opener.$('${idZip1}').val(zip[0]);
+                    window.opener.$('${idZip2}').val(zip[1]);
+                } else {
+                    window.opener.$('${idZip1}').val(zip[0] + '-' + zip[1]);
+                }
+                var tr = $(this).parents('tr');
+                window.opener.$('${idAddr1}').val($('.zip-addr1', tr).html());
+                window.opener.$('${idAddr2}').val($('.zip-addr2', tr).html() + $('.zip-addr3', tr).html());
+            }
+        }
+        window.close();
+    });
+});
+</script>
+</div>
+</div>

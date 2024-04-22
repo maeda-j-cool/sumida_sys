@@ -1,0 +1,53 @@
+<div style="padding:12px;">
+<div class="text-left">
+  <button class="btn btn-default zipcode-list-close-button">閉じる</button>
+</div>
+<div style="padding:16px 0;">
+<h4>住所検索結果</h4>
+<div>対象の郵便番号を選択してください。</div>
+<table class="table table-bordered table-responsive">
+  <thead>
+    <tr>
+      <th class="col-xs-2 text-nowrap">郵便番号</th>
+      <th class="col-xs-2 text-nowrap">都道府県</th>
+      <th class="col-xs-3 text-nowrap">市区町村</th>
+      <th class="col-xs-5 text-nowrap">町域名</th>
+    </tr>
+  </thead>
+  <tbody>
+{{each zipcodeList}}
+    <tr>
+      <td class="col-xs-2 text-nowrap"><a href="javascript:void(0);" class="zipcode-select">${zipcode1}-${zipcode2}</a></td>
+      <td class="zip-addr1 col-xs-2 text-nowrap">${address1}</td>
+      <td class="zip-addr2 col-xs-3 text-nowrap">${address2}</td>
+      <td class="zip-addr3 col-xs-5 text-nowrap">${address3}</td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+</div>
+<div class="text-right">
+  <button class="btn btn-default zipcode-list-close-button">閉じる</button>
+</div>
+<script>
+$(function() {
+    $('.zipcode-list-close-button').click(function() {
+        $('#zipcode-list, #zipcode-bg').fadeOut().remove();
+        return false;
+    });
+    $('a.zipcode-select').click(function() {
+        var zip = $(this).html().split('-');
+        if ('${idZip2}') {
+            $('${idZip1}').val(zip[0]);
+            $('${idZip2}').val(zip[1]);
+        } else {
+            $('${idZip1}').val(zip[0] + '-' + zip[1]);
+        }
+        var tr = $(this).parents('tr');
+        $('${idAddr1}').val($('.zip-addr1', tr).html());
+        $('${idAddr2}').val($('.zip-addr2', tr).html() + $('.zip-addr3', tr).html());
+        $('#zipcode-list, #zipcode-bg').fadeOut().remove();
+    });
+});
+</script>
+</div>

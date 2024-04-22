@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/** ------------------------------------------------------------------
+	ダイアログ関係定義
+---------------------------------------------------------------------- **/
+
+:root {
+  --color-main: #EBEBEB;
+  --color-sub: #F9EDE1;
+  --color-title: #D84800;
+  --color-button: #D84800;
+  --color-button-2: #D84800;
+}
+
+
+
+.sgDialog {
+	display		: block;
+	display		: none;
+	position	: absolute;
+	top			: 0;
+	left		: 0;
+	width		: 100%;
+	height		: 100%;
+	z-index		: 2000;
+}
+
+/* 背景 */
+.sgDialog .bg {
+	display		: block;
+	position	: fixed;
+	width		: 100%;
+	height		: 100%;
+	background	: rgba(0,0,0,0.9);
+	cursor		: pointer;
+}
+
+/* ウィンドウ */
+.sgDialog .win {
+	display			: block;
+	position		: fixed;
+	top				: 50%;
+	left			: 50%;
+	width			: 500px;
+	margin			: -50px 0 0 -250px;
+	padding			: 0 0 20px 0;
+	background		: #ffffff;
+	color			: #231815;
+	border: 5px solid var(--color-main);
+	/* border-image: linear-gradient(#c1f670 0%, #7cb42b 100%);
+  border-image-slice: 1; */
+}
+
+.sgDialog .win h3 {
+	margin			: 0;
+	padding			: 20px 50px 0 50px;
+	text-align		: center;
+	color			: var(--color-button);
+	font-size		: 15pt;
+}
+
+.sgDialog .win p {
+	margin			: 0;
+	padding			: 20px 50px 0 50px;
+	line-height		: 1.5;
+	text-align		: center;
+	font-size		: 10pt;
+}
+
+/* ボタン */
+.sgDialog .btns {
+	display			: block;
+	position		: relative;
+	overflow		: hidden;
+	margin			: 0;
+	padding			: 20px 50px 0 50px;
+	zoom			: 1;
+}
+
+.sgDialog .btns ul {
+	position		: relative;
+	margin			: 0;
+	padding			: 0;
+	float			: left;
+	left			: 50%;
+}
+
+.sgDialog .btns ul li {
+	position		: relative;
+	float			: left;
+	left			: -50%;
+	margin			: 0 10px;
+	padding			: 0;
+	list-style-type	: none;
+}
+
+.sgDialog .btns ul li a {
+	display			: block;
+	width			: 170px;
+	height			:  40px;
+	line-height		:  40px;
+	margin			:  0;
+	background		: var(--color-button);
+	color			: #ffffff;
+	text-decoration	: none;
+	text-align		: center;
+	font-size		: 10pt;
+	cursor			: pointer;
+}
+
+.sgDialog .btns ul li.ng a {
+	background		: #888888;
+}
+
+
+/* 閉じるボタン */
+.sgDialog .win p.close {
+	display			: block;
+	position		: absolute;
+	top				: 20px;
+	right			: 20px;
+	margin			: 0;
+	padding			: 0;
+	line-height		: 1;
+	text-align		: right;
+}
+
+.sgDialog .close a {
+	font-size		: 15pt;
+	background		: #ffffff;
+	color			: var(--color-button);
+	cursor			: pointer;
+}
+.sgDialog .close a:hover {
+	color			: #cc0000;
+}

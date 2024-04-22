@@ -1,0 +1,10 @@
+<Files ".user.ini">
+    Require all denied
+</Files>
+DirectoryIndex index.php index.html index.htm index.shtml
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^(.*\.(jpg|png|gif|js|css|htc|ico|svg|map))$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]

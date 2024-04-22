@@ -1,0 +1,195 @@
+@charset "UTF-8";
+body{
+	background-color: #FFFAF7;
+}
+
+.mv-top .mv-top__inner {
+  padding: 20px 0 100px;
+}
+
+.title-box,
+.top-explanation{
+	position: relative;
+    z-index: 99;
+}
+
+.top-comming .top-explanation {
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.top-comming .mv-top {
+  color:var(--color-title);
+}
+
+.explanation2 {
+  text-align: left;
+  width: 650px;
+  margin: 0 auto 50px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-ideograph; /* IE用 */
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+}
+/*-------------------なみなみ-----------------------
+#preview {
+  background-image: url(../img/frame.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 200px;
+}
+------------------------------------------*/
+
+#preview .mi{
+  font-size: 2.5em;
+  color: #FF9100;
+  line-height: 1.5em;
+}
+
+#preview > .text{
+  font-size: 1.2rem;
+  color: #8A7953;
+  font-family: "Zen Maru Gothic";
+}
+
+#date{
+  font-size: 1.5em;
+  color: #000;
+  height: 28px;
+  margin: 0 auto;
+  padding: 20px 50px;	
+}
+
+.txt{
+  font-size: 32px;
+}
+.txt:before,
+.txt:after{
+  content: url(../img/arrow.png);
+  margin: 15px;
+}
+
+#footer{
+	background-color: #FFFAF7;
+	position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+	width: 100%;
+}
+
+#footer .inquiry {
+  padding-top: 30px
+}
+
+#copywriter {
+  text-align: center;
+  color: #000;
+  font-size: 0.6em;
+}
+
+.sp{ display: none; }
+
+/*--------------------------
+#preview .txt{
+  font-size: 2em;
+  color: #000;
+  background-color: #fff;
+  width: 650px;
+  height: auto;
+  border-radius: 9999px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+-------------------------*/
+
+
+@media screen and (max-width: 768px) {
+  .mv-top .mv-top__inner {
+    height: auto;
+  }
+  
+  .mv-top__cont {
+    background: rgba(255,255,255,.7);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+  
+.title__image img{
+  height: auto;
+  width: 100%;
+}
+	
+	#top-main{
+	/* padding-top: 30px;	 */
+  }
+	
+  .mv-top{
+	background-color: #FFFAF7; 
+	margin-bottom: 0;
+	padding-top: 0;
+	}		
+  .title {
+    font-size: 1.5em;
+	}
+.top-explanation {
+    padding-bottom: 50px;
+}
+	
+  .explanation2 {
+  text-align: left;
+  width: 85%;
+  margin: 0 auto 50px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-ideograph; /* IE用 */
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
+	
+#preview .mi{
+  font-size: 1.5em;
+  line-height: 1em;
+}	
+
+#preview > .text{
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.txt{
+  font-size: 1.4em;
+  color: #000;
+  margin: 0 auto;
+  padding: 13px 10px 0 10px;		
+}
+
+.txt:before,
+.txt:after{
+  content: none;
+}	
+	
+#footer{
+	background-color: #FFFAF7;
+	position: static;
+    bottom: 0; /*下に固定*/
+	width: 100%;
+}
+
+#copywriter {
+  font-size: 0.5em;
+}
+	
+.pc{
+      display: none;
+  }
+.sp{
+	display: block;
+	margin-bottom: 20px;
+}
+}
