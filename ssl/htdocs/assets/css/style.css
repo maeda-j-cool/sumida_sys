@@ -4239,11 +4239,11 @@ html.no-scroll {
 }
 .container-type__wrap {
   container-type: inline-size;
-  width: 230px;
+  width: 18%;
 }
 @container (max-width: 350px) {
   .citizen_wrap {
-    width: 410px;
+    width: 32vw;
   }
 }
 .citizen_wrap .citizen {
