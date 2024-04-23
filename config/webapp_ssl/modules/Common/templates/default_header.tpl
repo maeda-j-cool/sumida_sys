@@ -13,19 +13,16 @@
                             <a href="#" data-stt-changelang="ja" data-stt-ignore="" data-stt-active="">日本語</a>
                         </li>
                         <li>
-                            <a href="#" data-stt-changelang="id" data-stt-ignore="" data-stt-active="">Indonesia</a>
-                        </li>
-                        <li>
-                            <a href="#" data-stt-changelang="es" data-stt-ignore="" data-stt-active="">Español</a>
-                        </li>
-                        <li>
                             <a href="#" data-stt-changelang="tl" data-stt-ignore="" data-stt-active="">Tagalog</a>
                         </li>
                         <li>
                             <a href="#" data-stt-changelang="vi" data-stt-ignore="" data-stt-active="">Tiếng Việt</a>
                         </li>
                         <li>
-                            <a href="#" data-stt-changelang="pt" data-stt-ignore="" data-stt-active="">Português</a>
+                            <a href="#" data-stt-changelang="my" data-stt-ignore="" data-stt-active="">မြန်မာဘာသာ(စကား)</a>
+                        </li>
+                        <li>
+                            <a href="#" data-stt-changelang="ne" data-stt-ignore="" data-stt-active="">नेपाली भाषा</a>
                         </li>
                         <li>
                             <a href="#" data-stt-changelang="en" data-stt-ignore="">English</a>
@@ -38,9 +35,6 @@
                         </li>
                         <li>
                             <a href="#" data-stt-changelang="zh-TW" data-stt-ignore="">繁體中文</a>
-                        </li>
-                        <li>
-                            <a href="#" data-stt-changelang="ur" data-stt-ignore="">اردو</a>
                         </li>
                     </ul>
                 </div>
@@ -442,9 +436,9 @@
                         <li>
                             <a href="#" data-stt-changelang="ja" data-stt-ignore="" data-stt-active="">日本語</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#" data-stt-changelang="" data-stt-ignore="" data-stt-active="">Indonesia</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="#" data-stt-changelang="" data-stt-ignore="" data-stt-active="">Español</a>
                         </li>
