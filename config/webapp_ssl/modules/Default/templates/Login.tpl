@@ -54,7 +54,7 @@
             <div class="top-explanation">
                 <section class="explanation">
                     <p>初めてご利用になる方は、案内書をお手元にご用意のうえ、<br>
-                        以下のボタンから利用者登録とアンケートにお進みください</p>
+                        以下のボタンから利用者登録とアンケートにお進みください。</p>
                 </section>
                 <div class="btn-wrap">
                     <p>
@@ -70,6 +70,14 @@
                 </div>
             </div>
         </div>
+        <div class="inquiry__inner-top">
+          <h3 class="title">すみだ区<br class="sp-none">バースデーサポート担当
+          </h3>
+          <p>フリーコール 0800-100-1482</p>
+          <p>受付時間　平日9:00～17:00</p>
+          <p>土日祝日（年末年始※）を除く平日</p>
+          <p class="u-textsize">※年末年始12月28日～1月5日）</p>
+      </div>
         </div>
     </article>
 </main>
@@ -78,12 +86,6 @@
   <!-- <footer id="footer">
     <div class="topfooter_bg">
     <section class="inquiry">
-        <div class="inquiry__inner-top">
-            <h3 class="title">墨田区ファーストバースデー<br class="pc-none">サポートお客様センター
-            </h3>
-            <p>フリーダイヤル 0800-100-1265</p>
-            <p>受付時間9:00~17:00<br class="pc-none">(土日祝日、お盆8/10～8/18、年末年始12/31～1/5除く)</p>
-        </div>
     </section>
     </div>
   </footer> -->

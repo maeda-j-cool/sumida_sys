@@ -139,10 +139,12 @@
                 </li>
             </ul>
         </div>
+        <div class="container-type__wrap">
         <div class="citizen_wrap">
             <!-- <p class="citizen"><span class="citizen__span">{$settings.kenshu_name}民の</span></p> -->
             <a href="{wt_action_url mod="" act=""}"><img src="/assets/img/logo_after.svg" alt="墨田区ファーストバースデーサポート"></a>
         </div>
+    </div>
     </div>
     <div class="sp-utility">
         <div class="utility_navigation">

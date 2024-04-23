@@ -386,7 +386,7 @@
   max-width: 422px;
   margin: 0 auto;
 }
-.special-feature__inner .title::before {
+/* .special-feature__inner .title::before {
   content: "";
   width: 40px;
   height: 90px;
@@ -397,8 +397,8 @@
   position: absolute;
   left: 0;
   top: 12px;
-}
-.special-feature__inner .title::after {
+} */
+/* .special-feature__inner .title::after {
   content: "";
   width: 40px;
   height: 90px;
@@ -409,7 +409,7 @@
   position: absolute;
   right: 0;
   top: 12px;
-}
+} */
 .special-feature__inner .text {
   font-size: 16px;
   font-size: 1.6rem;
@@ -480,14 +480,16 @@
   margin: 0 auto;
   font-weight: bold;
   font-family: "Zen Maru Gothic";
-  font-size: 31px;
-  font-size: 3.1rem;
+  /* font-size: 31px;
+  font-size: 3.1rem; */
+  font-size: 24px;
+  font-size: 2.4rem;
   color: var(--color-title);
   text-align: center;
   height: 214px;
   display: flex;
   align-items: center;
-  max-width: 320px;
+  max-width: 360px;
 }
 .special-feature__box .item4 {
   background-image: url(../img/special-feature4.png);
@@ -926,14 +928,16 @@
     margin: 0 90px;
   }
   .special-feature__box .item3 {
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
     background-position: center;
     margin-bottom: 10px;
     border-radius: 10px;
     background-image: url(../img/special-feature3_sp.png);
   }
   .special-feature__box .item3__text {
-    padding: 40px 0;
+    /* padding: 40px 0; */
+    padding: 20px 0 40px;
     font-size: 20px;
     font-size: 2rem;
     height: 100%;

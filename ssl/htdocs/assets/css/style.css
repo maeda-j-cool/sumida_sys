@@ -4227,7 +4227,6 @@ html.no-scroll {
 .leftColumn .region {
   margin: 0;
 }
-
 .citizen_wrap {
   width: 230px;
   /* width: 350px; */
@@ -4236,6 +4235,15 @@ html.no-scroll {
   display: grid;
   justify-content: flex-end;
   /* place-items: center; */
+}
+.container-type__wrap {
+  container-type: inline-size;
+  width: 230px;
+}
+@container (max-width: 350px) {
+  .citizen_wrap {
+    width: 410px;
+  }
 }
 .citizen_wrap .citizen {
   text-align: center;
