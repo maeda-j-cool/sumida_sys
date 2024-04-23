@@ -423,7 +423,7 @@
         <div class="modal-close modal-close-popup">×</div>
         <div class="modal-content modal_popup">
             <span class="modal-close"><img src="/assets/img/modal-close.png" alt="モーダルクローズボタン"></span>
-            <img src="/assets/img/popup_banr.png" alt="「子育て県 なかの」情報発信サイト Coloful">
+            <img src="/assets/img/popup_banr.png" alt="「子育て県 すみだ」情報発信サイト Coloful">
             <div class="c-popup__btn">
                 <a href="https://kagawa-colorful.com/" target="_blank"><img src="/assets/img/popup-btn.png" alt="くわしくはこちら"></a>
             </div>
