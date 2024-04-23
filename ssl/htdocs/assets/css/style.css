@@ -1296,7 +1296,8 @@ figure img{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 520px;
+  max-width: 560px;
+  /* max-width: 520px; */
 }
 
 .site-box2 {

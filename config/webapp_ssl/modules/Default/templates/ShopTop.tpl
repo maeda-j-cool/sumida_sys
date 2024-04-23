@@ -274,8 +274,35 @@
     </article>
 {/if}
 
-    <!-- <article class="seek">
-        <section class="moon-age">
+<article class="special-feature">
+    <section class="special-feature__inner">
+        <h2 class="title" id="top-Special-feature">おすすめ特集</h2>
+        <p class="text">なかの First Birthdayをよりご体感いただける<br>お楽しみ企画・取り組みをご紹介します。</p>
+    </section>
+    <div class="special-feature__box">
+        <div class="item1">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114080/tabAllFlg/1" class="item1__text">ママにおすすめ</a>
+        </div>
+        <div class="item2">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111300/tabAllFlg/1" class="item2__text">パパにおすすめ</a>
+        </div>
+        <div class="item3">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114020/tabAllFlg/1" class="item3__text">1歳おめでとう<br class="pc-none">パッケージ</a>
+        </div>
+        <div class="item4">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114010/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
+        </div>
+        <!-- <div class="item5">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114030/tabAllFlg/1" class="item5__text">防災用品</a>
+        </div> -->
+        <!-- <div class="item6">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114040/tabAllFlg/1" class="item6__text">授産製品</a>
+        </div> -->
+    </div>
+</article>
+
+    <article class="seek">
+        <!-- <section class="moon-age">
             <h2 class="moon-age__title">月齢別でさがす</h2>
             <ul class="moon-age__box">
                 <li class="moon-age__list">
@@ -317,7 +344,7 @@
                     </div>
                 </li>
             </ul>
-        </section>
+        </section> -->
         <section class="brand">
             <h2 class="brand__title">ブランド別でさがす</h2>
             <ul class="brand__box">
@@ -362,33 +389,6 @@
                 </li>
             </ul>
         </section>
-    </article> -->
-	
-    <article class="special-feature">
-        <section class="special-feature__inner">
-            <h2 class="title" id="top-Special-feature">おすすめ特集</h2>
-            <p class="text">なかの First Birthdayをよりご体感いただける<br>お楽しみ企画・取り組みをご紹介します。</p>
-        </section>
-        <div class="special-feature__box">
-            <div class="item2">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111300/tabAllFlg/1" class="item2__text">forママ・パパ</a>
-            </div>
-            <div class="item3">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114020/tabAllFlg/1" class="item3__text">内祝い好適品</a>
-            </div>
-            <div class="item4">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114010/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
-            </div>
-            <!-- <div class="item5">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114030/tabAllFlg/1" class="item5__text">防災用品</a>
-            </div> -->
-            <!-- <div class="item6">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114040/tabAllFlg/1" class="item6__text">授産製品</a>
-            </div> -->
-            <div class="item1">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114080/tabAllFlg/1" class="item1__text">おめでとうパッケージ</a>
-            </div>
-        </div>
     </article>
 
     <article class="connection">
@@ -396,17 +396,23 @@
         <p class="connection__text">墨田区はお子さまの健やかな成長を願って、さまざまな形で皆さまの子育てを応援しています。</p>
         <div class="connection-image">
             <div class="connection-box">
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/hanokenko/kodomonoha.html" target="_blank" target="_blank"><img alt="子どもの歯のおはなし"
-                      src="/assets/img/connection1.png" width="490" height="190"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/ikujisoudan.html" target="_blank"><img src="assets/img/connection1.png" alt="育児相談（就学前まで）身長・体重測定、保健師・栄養士・歯科衛生士への個別相談（希望制）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/odekake/index.html" target="_blank"><img alt="でかける・居場所" src="/assets/img/connection2.png" width="490"
-                    height="190"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/index.html" target="_blank"><img src="assets/img/connection2.png" alt="子育て応援サイト（墨田区の子育て総合サイト）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/bosai/index.html" target="_blank"><img src="/assets/img/connection3.png" alt="墨田区防災サイト"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/kajiikuji.html" target="_blank"><img src="assets/img/connection3.png" alt="家事・育児サポーター事業（妊娠中、０～２歳までの家事・育児サービス事業です）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/index.html" target="_blank"><img src="/assets/img/connection4.png" alt="墨田区子育てサイトおひるね"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/sougousoudan.html" target="_blank"><img src="assets/img/connection4.png" alt="子育て総合相談"></a>
                 </figure>
-              </div>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/tataijikatei.html" target="_blank"><img src="assets/img/connection5.png" alt="多胎児家庭支援"></a>
+                </figure>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/index.html" target="_blank"><img src="assets/img/connection6.png" alt="子どもの予防接種"></a>
+                </figure>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/konnan.html" target="_blank"><img src="assets/img/connection7.png" alt="一時的に家事が困難なとき（児童養育家庭ホームヘルプサービス）"></a>
+                </figure>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kenko_zukuri/ha_kenkou/sikaeisei_soudan.html" target="_blank"><img src="assets/img/connection8.png" alt="歯科衛生相談室（歯みがき教室、歯科健診・相談）"></a>
+                </figure>
+            </div>
         </div>
     </article>
 </main>

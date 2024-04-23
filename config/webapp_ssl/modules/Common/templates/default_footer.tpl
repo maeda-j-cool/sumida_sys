@@ -9,6 +9,7 @@
                     <p class="inquiry-item1__text">お電話でのお問い合わせ</p>
                     <p class="tel-text"><a href="tel:{$settings.call_center_phone|replace:'-':''|escape}">{$settings.call_center_phone|escape}</a></p>
                     <p class="reception-time">{$settings.call_center_business_hours|escape}</p>
+                    <p class="annotation">※回線の種類により稀につながらない場合がございますことをご了承ください。</p>
                 </section>
                 <section class="inquiry-item1 sp-none">
                     <div class="inquiry-item2">
@@ -18,7 +19,7 @@
                             <a href="{wt_action_url app="webapp" mod="Toiawase" act="Toiawase"}" class="send">メールをおくる</a>
                         </div>
                         <p class="annotation">
-                            ※日本語に慣れていない方はこちらのお問い合わせフォームからお問い合わせください<br>※回線の種類により稀につながらない場合がございますことをご了承ください。
+                            ※日本語に慣れていない方はこちらのお問い合わせフォームからお問い合わせください<br>
                         </p>
                     </div>
                 </section>
@@ -39,16 +40,6 @@
                     <!-- <h3 class="box2-sub-item"><a href="/#top-connection">関連情報</a></h3> -->
                     <!--<h3 class="special-sub-item"><a href="/#top-Special-feature">特集</a></h3>-->
                 </li>
-                <li class="box2-item">
-                    <p class="box2-text"><a href="/guide/faq/">よくあるご質問</a></p>
-                    <p class="box2-text"><a href="{wt_action_url app="webapp" mod="Toiawase" act="Toiawase"}">お問い合わせ</a></p>
-                    <p class="box2-text"><a href="/guide/">ご利用ガイド</a></p>
-                    <!-- {if $wt__is_login and !$is_virtual}
-                    <p class="box2-text"><a href="/support/">健康相談<br class="sp">サポートダイヤル</a></p>
-                    {/if} -->
-                </li>
-            </ul>
-            <ul class="site-box2">
                 <li class="box3-item">
                     <p class="box3-sub-item"><a href="/abouts/">当サイトについて</a></p>
                     <p class="box3-sub-item"><a href="/privacy/">プライバシーポリシー</a>
@@ -58,6 +49,16 @@
                     {if $wt__is_login and !$is_virtual}
                         <p class="box3-sub-item"><a href="{wt_action_url app="webapp" mod="Withdraw" act="Withdrawal"}">ポイント利用辞退申請</a></p>
                     {/if}
+                </li>
+            </ul>
+            <ul class="site-box2">
+                <li class="box2-item">
+                    <p class="box2-text"><a href="/guide/faq/">よくあるご質問</a></p>
+                    <p class="box2-text"><a href="{wt_action_url app="webapp" mod="Toiawase" act="Toiawase"}">お問い合わせ</a></p>
+                    <p class="box2-text"><a href="/guide/">ご利用ガイド</a></p>
+                    <!-- {if $wt__is_login and !$is_virtual}
+                    <p class="box2-text"><a href="/support/">健康相談<br class="sp">サポートダイヤル</a></p>
+                    {/if} -->
                 </li>
             </ul>
         </div>
