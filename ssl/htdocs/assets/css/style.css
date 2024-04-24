@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root {
   --color-main: #EBEBEB;
-  --color-sub: #F9EDE1;
+  --color-sub: #FFFAEE;
   --color-button: #CE4074;
-  --color-text: #000000;
-  --color-title:#D84800;
+  --color-text: #000;
+  --color-title:#CE4074;
 }
 
 .header {
@@ -37,10 +37,12 @@
   display: flex;
   justify-content: space-between;
   padding: 14px 10px 14px 30px;
+  background: #FFF;
 }
 
 .bl_sizeBtn_wrap .span {
   font-weight: bold;
+  color: #CE4074;
 }
 
 .headerNav {
@@ -81,7 +83,8 @@
 }
 
 .headerList__lang a {
-  color: (--color-text);
+  color: #CE4074;
+  /* color: (--color-text); */
 }
 
 .mv-top {
@@ -2141,9 +2144,11 @@ input[name=tab_item] {
 }
 
 .bl_sizeBtn {
-  color: var(--color-text);
+  color: #CE4074;
+  /* color: var(--color-text); */
   padding: 0 5px;
-  border: 1px solid var(--color-text);
+  border: 1px solid #CE4074;
+  /* border: 1px solid var(--color-text); */
   background: none;
 }
 
@@ -2176,7 +2181,8 @@ input[name=tab_item] {
 
 /* 選択したボタンのスタイル */
 .bl_sizeBtn.is_active {
-  background-color: var(--color-text);
+  background-color: #CE4074;
+  /* background-color: var(--color-text); */
   color: #fff;
   padding-top: 2px;
   padding-bottom: 1px;
