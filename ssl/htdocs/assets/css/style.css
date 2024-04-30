@@ -4235,23 +4235,28 @@ html.no-scroll {
   margin: 0;
 }
 .citizen_wrap {
-  width: 230px;
-  /* width: 350px; */
+  position: relative;
+  width: 350px;
   margin: 16px auto 0;
   min-height: 120px;
-  display: grid;
-  justify-content: flex-end;
-  /* place-items: center; */
 }
-.container-type__wrap {
+
+.citizen_wrap > a {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .container-type__wrap {
   container-type: inline-size;
   width: 18%;
-}
-@container (max-width: 350px) {
+} */
+/* @container (max-width: 350px) {
   .citizen_wrap {
     width: 32vw;
   }
-}
+} */
 .citizen_wrap .citizen {
   text-align: center;
   font-size: 1.4rem;
