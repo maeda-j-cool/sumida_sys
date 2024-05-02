@@ -396,21 +396,21 @@
         <p class="connection__text">墨田区はお子さまの健やかな成長を願って、さまざまな形で皆さまの子育てを応援しています。</p>
         <div class="connection-image">
             <div class="connection-box">
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/ikujisoudan.html" target="_blank"><img src="assets/img/connection1.png" alt="育児相談（就学前まで）身長・体重測定、保健師・栄養士・歯科衛生士への個別相談（希望制）"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/ikuji_gakkyu/ikujisoudan.html" target="_blank"><img src="/assets/img/connection1.png" alt="育児相談（就学前まで）身長・体重測定、保健師・栄養士・歯科衛生士への個別相談（希望制）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/index.html" target="_blank"><img src="assets/img/connection2.png" alt="子育て応援サイト（墨田区の子育て総合サイト）"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/index.html" target="_blank"><img src="/assets/img/connection2.png" alt="子育て応援サイト（墨田区の子育て総合サイト）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/kajiikuji.html" target="_blank"><img src="assets/img/connection3.png" alt="家事・育児サポーター事業（妊娠中、０～２歳までの家事・育児サービス事業です）"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/kajiikuji.html" target="_blank"><img src="/assets/img/connection3.png" alt="家事・育児サポーター事業（妊娠中、０～２歳までの家事・育児サービス事業です）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/sougousoudan.html" target="_blank"><img src="assets/img/connection4.png" alt="子育て総合相談"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/sougousoudan.html" target="_blank"><img src="/assets/img/connection4.png" alt="子育て総合相談"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/tataijikatei.html" target="_blank"><img src="assets/img/connection5.png" alt="多胎児家庭支援"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/tataijikatei.html" target="_blank"><img src="/assets/img/connection5.png" alt="多胎児家庭支援"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/index.html" target="_blank"><img src="assets/img/connection6.png" alt="子どもの予防接種"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/yobou_sessyu/kodomo/index.html" target="_blank"><img src="/assets/img/connection6.png" alt="子どもの予防接種"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/konnan.html" target="_blank"><img src="assets/img/connection7.png" alt="一時的に家事が困難なとき（児童養育家庭ホームヘルプサービス）"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/sodan/konnan.html" target="_blank"><img src="/assets/img/connection7.png" alt="一時的に家事が困難なとき（児童養育家庭ホームヘルプサービス）"></a>
                 </figure>
-                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kenko_zukuri/ha_kenkou/sikaeisei_soudan.html" target="_blank"><img src="assets/img/connection8.png" alt="歯科衛生相談室（歯みがき教室、歯科健診・相談）"></a>
+                <figure class="connection-item"><a href="https://www.city.sumida.lg.jp/kenko_fukushi/kenko/kenko_zukuri/ha_kenkou/sikaeisei_soudan.html" target="_blank"><img src="/assets/img/connection8.png" alt="歯科衛生相談室（歯みがき教室、歯科健診・相談）"></a>
                 </figure>
             </div>
         </div>
