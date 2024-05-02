@@ -4245,7 +4245,7 @@ html.no-scroll {
   position: absolute;
   width: 100%;
   top: 50%;
-  left: 50%;
+  left: 90%;
   transform: translate(-50%, -50%);
 }
 /* .container-type__wrap {
