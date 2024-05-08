@@ -81,7 +81,17 @@
                                     {$confirm_params[$const.I_BIRTHDAY3_D]|escape}日
                                 {/strip}</td>
                             </tr>
+                            <tr class="u-tableInfo">
+                                <th>お子様は<br>第何子ですか</th>
+                                <td>第１子</td>
+                            </tr>
                         </table>
+                        <div class="u-annotation">
+                            <p>※第何子については、以下内容をご確認ください。疑義がある場合は必ず申請前にお問い合わせください。</p>
+                            <p>・同じ世帯に住民登録があり、家計を同一にして養育している18歳未満のお子さまのうち、対象のお子さまが1歳の誕生日時点で第何子かで決まります。</p>
+                            <p>（例：18歳、5歳の兄弟姉妹がいて、1歳のお子さまがいるご家庭の場合、5歳が第1子、1歳が第2子となります。）</p>
+                            <p>・別の住所地で生活をしているお子さまは算定に入りません。</p>
+                        </div>
                     </div>
                     <div class="tableInfo">
                         <h3 class="tableInfo__title">住所</h3>

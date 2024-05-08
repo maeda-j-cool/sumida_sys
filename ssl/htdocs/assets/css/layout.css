@@ -2610,6 +2610,11 @@ input.spinner_down {
     box-sizing: border-box;
     border: 1px solid #404040;
 }
+.u-annotation {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
 
 @media screen and (max-width: 767px) {
     .tableInfo__title--id {
@@ -2641,7 +2646,9 @@ input.spinner_down {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
-
+    .u-annotation {
+        font-size: 1.2rem;
+    }
     .tableInfo__title--sub {
         font-size: 2rem;
     }
@@ -4481,7 +4488,9 @@ span.any_ {
 .tableInfo th span {
     float: right;
 }
-
+.u-tableInfo span {
+    margin-top: 12px;
+}
 div#section02 h2 {
     text-align: center;
     font-size: 1.2em;
