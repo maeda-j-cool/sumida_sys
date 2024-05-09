@@ -62,46 +62,28 @@
     <h2 class="login-point__title">ポイント別でさがす</h2>
         <ul class="point-box">
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110010/tabAllFlg/1" class="text">1,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110010/tabAllFlg/1" class="text">5,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110020/tabAllFlg/1" class="text">2,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110020/tabAllFlg/1" class="text">10,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110030/tabAllFlg/1" class="text">3,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110030/tabAllFlg/1" class="text">15,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110040/tabAllFlg/1" class="text">4,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110040/tabAllFlg/1" class="text">20,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110050/tabAllFlg/1" class="text">5,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110050/tabAllFlg/1" class="text">25,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110060/tabAllFlg/1" class="text">6,000~7,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110060/tabAllFlg/1" class="text">30,000~35,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110070/tabAllFlg/1" class="text">8,000~9,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110070/tabAllFlg/1" class="text">40,000~45,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110080/tabAllFlg/1" class="text">10,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110090/tabAllFlg/1" class="text">11,000~15,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110100/tabAllFlg/1" class="text">16,000~19,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110110/tabAllFlg/1" class="text">20,000~29,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110120/tabAllFlg/1" class="text">30,000~39,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110130/tabAllFlg/1" class="text">40,000~49,000pt</a>
-            </li>
-            <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110140/tabAllFlg/1" class="text">50,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110080/tabAllFlg/1" class="text">50,000pt~</a>
             </li>
         </ul>
     </article>
@@ -131,7 +113,7 @@
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111600/tabAllFlg/1" class="text">食品</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111700/tabAllFlg/1" class="text">体験・金券</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111700/tabAllFlg/1" class="text">金券・施設利用券</a>
             </li>
 		</ul>
     </article>
