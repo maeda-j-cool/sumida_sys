@@ -117,6 +117,10 @@
                     <div class="tableInfo">
                         <h3 class="tableInfo__title">お子さまの氏名・生年月日</h3>
                         <table>
+                            <tr class="u-tableInfo">
+                                <th>お子様は<br>第何子ですか</th>
+                                <td>第１子</td>
+                            </tr>
                             <tr>
                                 <th>お名前<span class="mandatory_">必須</span></th>
                                 <td>{strip}
@@ -165,10 +169,6 @@
 }
                                     </span>
                                 </td>
-                            </tr>
-                            <tr class="u-tableInfo">
-                                <th>お子様は<span class="mandatory_">必須</span><br>第何子ですか</th>
-                                <td>第１子</td>
                             </tr>
                         </table>
                         <div class="u-annotation">

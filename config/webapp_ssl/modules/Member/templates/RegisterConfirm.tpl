@@ -28,6 +28,10 @@
                         <p class="st_person">（1人目）</p>
                         <table>
                             <tr>
+                                <th>お子様は<br>第何子ですか</th>
+                                <td>第１子</td>
+                            </tr>
+                            <tr>
                                 <th>お名前</th>
                                 <td>{$confirm_params[$const.I_SEI_KANJI1]|escape} {$confirm_params[$const.I_MEI_KANJI1]|escape}</td>
                             </tr>
@@ -46,6 +50,10 @@
                     <div class="tableInfo">
                         <p class="st_person">（2人目）</p>
                         <table>
+                            <tr>
+                                <th>お子様は<br>第何子ですか</th>
+                                <td>第１子</td>
+                            </tr>
                             <tr>
                                 <th>お名前</th>
                                 <td>{$confirm_params[$const.I_SEI_KANJI2]|escape} {$confirm_params[$const.I_MEI_KANJI2]|escape}</td>
@@ -80,10 +88,6 @@
                                     {$confirm_params[$const.I_BIRTHDAY3_M]|escape}月
                                     {$confirm_params[$const.I_BIRTHDAY3_D]|escape}日
                                 {/strip}</td>
-                            </tr>
-                            <tr class="u-tableInfo">
-                                <th>お子様は<br>第何子ですか</th>
-                                <td>第１子</td>
                             </tr>
                         </table>
                         <div class="u-annotation">
