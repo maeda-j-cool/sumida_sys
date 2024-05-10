@@ -221,6 +221,126 @@
                                         class="small-text-size-after">POINTS</span></p>
                             </div>
                         </div>
+
+                        {if $enquete_info}
+                <h2 class="l-section__title l-section__title--cart l-section__title--cart--sp" data-stt-ignore>
+                アンケートにお答えください
+                </h2>
+                    <div class="tableInfo" data-stt-ignore>
+                        <table>
+                            <tbody>
+{foreach from=$enquete_info item=enquete key=eid}
+{assign var="post_name" value="enquete{$eid}"}
+{assign var="post_value" value=""}
+{if isset($wt__posts[$post_name])}
+{assign var="post_value" value=$wt__posts[$post_name]}
+{/if}
+                                <tr>
+                                    <th>
+                                        【{$enquete.M36SEQ|escape}】{$enquete.M36QUESTION}
+                                        {if $enquete.M36REQUIRED == '1'}
+                                            <br class="sp-none"><span class="mandatory_">必須</span>
+                                        {else}
+                                            <br class="sp-none"><span class="any_">任意</span>
+                                        {/if}
+                                    </th>
+{if $enquete.M36OPTIONTYPE == '00'}{* 単一選択 *}
+                                    <td class="question-group">
+{foreach from=$enquete.M37 item=option key=oid}
+                                        <div class="radio-item">
+                                            <input type="radio" name="{$post_name|escape}" value="{$oid|escape}" id="{$post_name|escape}_{$oid|escape}"{if $post_value==$oid} checked{/if}>
+                                            <label for="{$post_name|escape}_{$oid|escape}">{$option.M37TEXT|escape}</label>
+{if $option.M37HASFREE == '1'}
+{assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
+{if $post_value==$oid && isset($wt__posts[$post_name_ex])}
+{assign var="post_value_ex" value="{$wt__posts[$post_name_ex]}"}
+{else}
+{assign var="post_value_ex" value=""}
+{/if}
+                                            <textarea type="text" name="{$post_name_ex|escape}" rows="1" style="min-height:initial;">{$post_value_ex|escape}</textarea>
+{/if}
+                                        </div>
+{/foreach}
+                                    </td>
+{elseif $enquete.M36OPTIONTYPE == '10'}{* 複数選択 *}
+                                    <td class="question-group-plu">
+{foreach from=$enquete.M37 item=option key=oid}
+                                        <div class="checkbox-item">
+                                            <input type="checkbox" name="{$post_name|escape}[]" value="{$oid|escape}" id="{$post_name|escape}_{$oid|escape}"{if is_array($post_value) && in_array($oid, $post_value)} checked{/if}>
+                                            <label for="{$post_name|escape}_{$oid|escape}">{$option.M37TEXT|escape}</label>
+{if $option.M37HASFREE == '1'}
+{if $enquete.M36SEQ|escape == '1'}
+{* 墨田区専用：特殊>>> *}
+{assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
+{assign var="post_name_ex_n" value="{$post_name|escape}_{$oid|escape}_n"}
+{assign var="post_name_ex_age1" value="{$post_name|escape}_{$oid|escape}_age1"}
+{assign var="post_name_ex_age2" value="{$post_name|escape}_{$oid|escape}_age2"}
+{assign var="post_name_ex_age3" value="{$post_name|escape}_{$oid|escape}_age3"}
+{if isset($wt__posts[$post_name_ex_n])}{assign var="post_value_ex_n" value="{$wt__posts[$post_name_ex_n]}"}{else}{assign var="post_value_ex_n" value=""}{/if}
+{if isset($wt__posts[$post_name_ex_age1])}{assign var="post_value_ex_age1" value="{$wt__posts[$post_name_ex_age1]}"}{else}{assign var="post_value_ex_age1" value=""}{/if}
+{if isset($wt__posts[$post_name_ex_age2])}{assign var="post_value_ex_age2" value="{$wt__posts[$post_name_ex_age2]}"}{else}{assign var="post_value_ex_age2" value=""}{/if}
+{if isset($wt__posts[$post_name_ex_age3])}{assign var="post_value_ex_age3" value="{$wt__posts[$post_name_ex_age3]}"}{else}{assign var="post_value_ex_age3" value=""}{/if}
+<span class="tableInfo_data">{strip}
+■人数：
+<input type="number" name="{$post_name_ex_n|escape}" value="{$post_value_ex_n|escape}" size="3">名
+&emsp;
+■年齢：
+<input type="number" name="{$post_name_ex_age1|escape}" value="{$post_value_ex_age1|escape}" size="3" maxlength="2">歳
+&emsp;
+<input type="number" name="{$post_name_ex_age2|escape}" value="{$post_value_ex_age2|escape}" size="3" maxlength="2">歳
+&emsp;
+<input type="number" name="{$post_name_ex_age3|escape}" value="{$post_value_ex_age3|escape}" size="3" maxlength="2">歳
+{/strip}</span>
+{* <<<墨田区専用：特殊 *}
+{else}
+{assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
+{if is_array($post_value) && in_array($oid, $post_value) && isset($wt__posts[$post_name_ex])}
+{assign var="post_value_ex" value="{$wt__posts[$post_name_ex]}"}
+{else}
+{assign var="post_value_ex" value=""}
+{/if}
+                                            <textarea type="text" name="{$post_name_ex|escape}" rows="1" style="min-height:initial;">{$post_value_ex|escape}</textarea>
+{/if}
+{/if}
+                                        </div>
+{/foreach}
+                                    </td>
+{elseif $enquete.M36OPTIONTYPE == '20'}{* 自由入力 *}
+                                    <td>
+                                        <div class="item__textarea">
+                                            <textarea name="{$post_name|escape}" rows="4" cols="30" data-dl-input-translation="true">{$post_value|escape}</textarea>
+                                        </div>
+                                    </td>
+{/if}
+                                </tr>
+{/foreach}
+                            </tbody>
+                        </table>
+                    </div>
+{/if}
+
+                    {* <div class="infosaddComfirm">
+                        <label class="check_guide" for="no_add">
+                            <input type="checkbox" name="myCheckbox" class="custom-checkbox" id="no_add">
+                            <span class="checkmark"></span>
+                            他の自治体で、出産・子育て支援交付金による出産応援ギフトの支給を受けていません。
+                        </label>
+                        <p class="infosComfirm__note">
+                            ※出産応援ギフトの支給状況などについて、他の自治体に確認することがあります。
+                        </p>
+                    </div>
+                    <div class="infosComfirm info-left">
+                        <label class="check_guide" for="terms">
+                            <input type="checkbox" name="myCheckbox" class="custom-checkbox" id="terms">
+                            <span class="checkmark"></span>
+                            利用規約承諾に同意する
+                        </label>
+                        <p class="infosComfirm__note">
+                            ※利用規約承諾については、<a class="under-bar" href="/terms/" target="_blank">こちら</a>をご確認ください。
+                        </p>
+                    </div> *}
+
+
                         <div class="infosComfirm">
                             <p class="infosComfirm__note">
                                 ※特定商取引に関する法律に基づく表記は<a class="under-bar" href="/tokusyoho/" target="_blank" rel="noopener">こちら</a>
