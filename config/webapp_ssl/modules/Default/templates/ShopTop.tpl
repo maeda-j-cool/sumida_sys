@@ -59,7 +59,7 @@
     </article>
 
     <article class="login-point">
-    <h2 class="login-point__title">ポイント別でさがす</h2>
+        <h2 class="login-point__title">ポイント別でさがす</h2>
         <ul class="point-box">
             <li class="login-point__point">
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110010/tabAllFlg/1" class="text">5,000pt</a>
@@ -84,7 +84,6 @@
             </li>
             <li class="login-point__point">
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110080/tabAllFlg/1" class="text">50,000pt~</a>
-            </li>
         </ul>
     </article>
 
@@ -259,20 +258,20 @@
 <article class="special-feature">
     <section class="special-feature__inner">
         <h2 class="title" id="top-Special-feature">おすすめ特集</h2>
-        <p class="text">なかの First Birthdayをよりご体感いただける<br>お楽しみ企画・取り組みをご紹介します。</p>
+        <p class="text">すみだ区バースデーサポートをよりご体感いただける<br>お楽しみ企画・取り組みをご紹介します。</p>
     </section>
     <div class="special-feature__box">
         <div class="item1">
-            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114080/tabAllFlg/1" class="item1__text">ママにおすすめ</a>
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153000/tabAllFlg/1" class="item1__text">ママにおすすめ</a>
         </div>
         <div class="item2">
-            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111300/tabAllFlg/1" class="item2__text">パパにおすすめ</a>
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153010/tabAllFlg/1" class="item2__text">パパにおすすめ</a>
         </div>
         <div class="item3">
-            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114020/tabAllFlg/1" class="item3__text">1歳おめでとう<br class="pc-none">パッケージ</a>
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153030/tabAllFlg/1" class="item3__text">1歳おめでとう<br class="pc-none">パッケージ</a>
         </div>
         <div class="item4">
-            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114010/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153020/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
         </div>
         <!-- <div class="item5">
             <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114030/tabAllFlg/1" class="item5__text">防災用品</a>
