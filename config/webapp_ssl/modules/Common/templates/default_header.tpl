@@ -242,28 +242,28 @@
                                                             <div class="p-topitem__catbox">
                                                             <ul class="p-topitem__catbox--inner">
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80010/tabAllFlg/1">5,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150010/tabAllFlg/1">5,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80020/tabAllFlg/1">10,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150020/tabAllFlg/1">10,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80030/tabAllFlg/1">15,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150030/tabAllFlg/1">15,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80040/tabAllFlg/1">20,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150040/tabAllFlg/1">20,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80050/tabAllFlg/1">25,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150050/tabAllFlg/1">25,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80060/tabAllFlg/1">30,000~35,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150060/tabAllFlg/1">30,000~35,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80070/tabAllFlg/1">40,000~45,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150070/tabAllFlg/1">40,000~45,000pt</a>
                                                                 </li>
                                                                 <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-80080/tabAllFlg/1">50,000pt</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150080/tabAllFlg/1">50,000pt</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -365,7 +365,7 @@
     <div class="header_navigation">
         <ul class="header_navigation_list">
             <li class="header_navigation_item">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-80000/"><img src="/assets/img/nav_01.svg" alt="すべての商品">
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000/"><img src="/assets/img/nav_01.svg" alt="すべての商品">
                     <p>すべての商品</p>
                 </a>
             </li>

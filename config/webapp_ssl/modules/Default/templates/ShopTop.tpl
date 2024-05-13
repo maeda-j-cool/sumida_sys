@@ -62,28 +62,28 @@
         <h2 class="login-point__title">ポイント別でさがす</h2>
         <ul class="point-box">
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110010/tabAllFlg/1" class="text">5,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150010/tabAllFlg/1" class="text">5,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110020/tabAllFlg/1" class="text">10,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150020/tabAllFlg/1" class="text">10,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110030/tabAllFlg/1" class="text">15,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150030/tabAllFlg/1" class="text">15,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110040/tabAllFlg/1" class="text">20,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150040/tabAllFlg/1" class="text">20,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110050/tabAllFlg/1" class="text">25,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150050/tabAllFlg/1" class="text">25,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110060/tabAllFlg/1" class="text">30,000~35,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150060/tabAllFlg/1" class="text">30,000~35,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110070/tabAllFlg/1" class="text">40,000~45,000pt</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150070/tabAllFlg/1" class="text">40,000~45,000pt</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110080/tabAllFlg/1" class="text">50,000pt~</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-150080/tabAllFlg/1" class="text">50,000pt~</a>
         </ul>
     </article>
 
@@ -91,28 +91,28 @@
         <h2 class="login-point__title">カテゴリ別でさがす</h2>
         <ul class="point-box">
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111000/tabAllFlg/1" class="text">乳幼児衣料品</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151000/tabAllFlg/1" class="text">乳幼児衣料品</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111100/tabAllFlg/1" class="text">育児消耗品</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151100/tabAllFlg/1" class="text">育児消耗品</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111200/tabAllFlg/1" class="text">育児日用品</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151200/tabAllFlg/1" class="text">育児日用品</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111300/tabAllFlg/1" class="text">ママ・パパサポート</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151300/tabAllFlg/1" class="text">ママ・パパサポート</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111400/tabAllFlg/1" class="text">玩具</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151400/tabAllFlg/1" class="text">玩具</a>
             </li>
             <li class="login-point__point">
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111500/tabAllFlg/1" class="text">内祝い</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111600/tabAllFlg/1" class="text">食品</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151600/tabAllFlg/1" class="text">食品</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111700/tabAllFlg/1" class="text">金券・施設利用券</a>
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151700/tabAllFlg/1" class="text">金券・施設利用券</a>
             </li>
 		</ul>
     </article>
