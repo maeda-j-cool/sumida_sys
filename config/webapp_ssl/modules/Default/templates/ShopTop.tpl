@@ -399,18 +399,7 @@
 </main>
 </div>
 {include file=$footerTemplate}
-<div class="modal-container modal-container-popup active" id="modalPopup">
-    <div class="modal-body">
-        <div class="modal-close modal-close-popup">×</div>
-        <div class="modal-content modal_popup">
-            <span class="modal-close"><img src="/assets/img/modal-close.png" alt="モーダルクローズボタン"></span>
-            <img src="/assets/img/popup_banr.png" alt="「子育て県 すみだ」情報発信サイト Coloful">
-            <div class="c-popup__btn">
-                <a href="https://kagawa-colorful.com/" target="_blank"><img src="/assets/img/popup-btn.png" alt="くわしくはこちら"></a>
-            </div>
-        </div>
-    </div>
-</div>
+
 {capture name=js}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
