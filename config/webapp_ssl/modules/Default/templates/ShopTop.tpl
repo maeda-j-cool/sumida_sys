@@ -328,40 +328,40 @@
             <ul class="brand__box">
                 <li class="brand__list">
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112000/tabAllFlg/1" class="text">10mois</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152000/tabAllFlg/1" class="text">10mois</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112010/tabAllFlg/1" class="text">アップリカ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152010/tabAllFlg/1" class="text">アップリカ</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112020/tabAllFlg/1" class="text">カトージ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152020/tabAllFlg/1" class="text">カトージ</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112030/tabAllFlg/1" class="text">コンビ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152030/tabAllFlg/1" class="text">コンビ</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112040/tabAllFlg/1" class="text">ディズニー</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152040/tabAllFlg/1" class="text">ディズニー</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112050/tabAllFlg/1" class="text">ドクターベッタ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152050/tabAllFlg/1" class="text">ドクターベッタ</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112060/tabAllFlg/1" class="text">プリスティン</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152060/tabAllFlg/1" class="text">プリスティン</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112070/tabAllFlg/1" class="text">ボーネルンド</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152070/tabAllFlg/1" class="text">ボーネルンド</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112080/tabAllFlg/1" class="text">ポロ ラルフ ローレン</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152080/tabAllFlg/1" class="text">ポロ ラルフ ローレン</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112090/tabAllFlg/1" class="text">ミキハウス</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152090/tabAllFlg/1" class="text">ミキハウス</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112100/tabAllFlg/1" class="text">ムーンスター</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152100/tabAllFlg/1" class="text">ムーンスター</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-112110/tabAllFlg/1" class="text">Leapepe</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152110/tabAllFlg/1" class="text">Leapepe</a>
                     </div>
 
                 </li>
