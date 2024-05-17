@@ -106,9 +106,6 @@
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151400/tabAllFlg/1" class="text">玩具</a>
             </li>
             <li class="login-point__point">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000-111500/tabAllFlg/1" class="text">内祝い</a>
-            </li>
-            <li class="login-point__point">
                 <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000-151600/tabAllFlg/1" class="text">食品</a>
             </li>
             <li class="login-point__point">
