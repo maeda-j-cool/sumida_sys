@@ -2888,9 +2888,9 @@ html.no-scroll {
     border-bottom: none;
     color: #FFFFFF;
   }
-  .accordion-area__title .accordion-area-span {
+  /* .accordion-area__title .accordion-area-span {
     color: #CE4074;
-  }
+  } */
   .question {
     border-bottom: none;
     width: 85%;

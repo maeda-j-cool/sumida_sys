@@ -194,49 +194,7 @@
                                                         </form>
                                                         </div>
                                                         </dd>
-                                                        <dd class="line-mdse">
-                                                            <h2 class="p-topitem__catbox--title">月齢別でさがす</h2>
-                                                            <div class="p-topitem__catbox">
-                                                            <ul class="p-topitem__catbox--inner">
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83000/tabAllFlg/1">0ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83010/tabAllFlg/1">1ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83020/tabAllFlg/1">2ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83030/tabAllFlg/1">3ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83040/tabAllFlg/1">4ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83050/tabAllFlg/1">5ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83060/tabAllFlg/1">6ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83070/tabAllFlg/1">7ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83080/tabAllFlg/1">8ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83090/tabAllFlg/1">9ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83100/tabAllFlg/1">10ヶ月から</a>
-                                                                </li>
-                                                                <li class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-83110/tabAllFlg/1">1歳から</a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        </dd>
+                                                        
                                                         <dd class="line-mdse">
                                                             <h2 class="p-topitem__catbox--title">ポイント別でさがす</h2>
                                                             <div class="p-topitem__catbox">
@@ -273,20 +231,20 @@
                                                             <div class="p-topitem__catbox">
                                                             <ul class="p-topitem__catbox--inner">
                                                                 <ul class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-84070/tabAllFlg/1">マタニティ特集</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153000/tabAllFlg/1" class="item1__text">ママにおすすめ</a>
                                                                 </ul>
                                                                 <ul class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-84040/tabAllFlg/1">内祝い好適品</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153010/tabAllFlg/1" class="item2__text">パパにおすすめ</a>
                                                                 </ul>
                                                                 <ul class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-84080/tabAllFlg/1">出産準備特集</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153020/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
                                                                 </ul>
                                                                 <ul class="c-more__arrow bgGray_">
-                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-84050/tabAllFlg/1">防災用品</a>
+                                                                    <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153030/tabAllFlg/1" class="item3__text">1歳おめでとう<br class="pc-none">パッケージ</a>
                                                                 </ul>
-                                                                <ul class="c-more__arrow bgGray_">
+                                                                <!-- <ul class="c-more__arrow bgGray_">
                                                                     <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-84090/tabAllFlg/1">赤ちゃんとお出かけ</a>
-                                                                </ul>
+                                                                </ul> -->
                                                             </ul>
                                                         </div>
                                                         </dd>
