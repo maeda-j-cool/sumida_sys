@@ -4426,8 +4426,10 @@ p.productList__title:hover {
     }
 
     .bgGray_ a {
-        color: var(--color-title);
-        background: var(--color-sub) !important;
+        /* color: var(--color-title);
+        background: var(--color-sub) !important; */
+        color: #FFF;
+        background: #ce4074 !important;
         width: max-content !important;
         padding: 0.2em 1.8em;
     }
