@@ -38,14 +38,14 @@
     <article class="login-related pc-none">
         <section class="login-related__box">
             <div class="item">
-                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-110000/">
+                <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-150000/">
                     <figure class="item__image"><img src="/assets/img/sp/product-list.png" alt="商品一覧"></figure>
-                    <p class="item__text">商品一覧</p>
+                    <p class="item__text">すべての商品</p>
                 </a>
             </div>
             <div class="item">
-                <a href="#support-portal"><figure class="item__image"><img src="/assets/img/sp/support-portal.png" alt="子育て支援ポータル"></figure>
-                    <p class="item__text">子育て支援ポータル</p></a>
+                <a href="{wt_action_url mod="" act=""}#top-connection"><img src="/assets/img/nav_02.svg" alt="墨田区の子育て支援情報"></figure>
+                    <p class="item__text">墨田区の子育て<br>支援情報</p></a>
             </div>
             <div class="item">
                 <a href="/guide/faq/"><figure class="item__image"><img src="/assets/img/sp/FAQ.png" alt="よくあるご質問"></figure>
