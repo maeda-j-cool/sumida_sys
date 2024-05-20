@@ -343,9 +343,6 @@
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152040/tabAllFlg/1" class="text">ディズニー</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152050/tabAllFlg/1" class="text">ドクターベッタ</a>
-                    </div>
-                    <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152060/tabAllFlg/1" class="text">プリスティン</a>
                     </div>
                     <div class="btn">
@@ -356,9 +353,6 @@
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152090/tabAllFlg/1" class="text">ミキハウス</a>
-                    </div>
-                    <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152100/tabAllFlg/1" class="text">ムーンスター</a>
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152110/tabAllFlg/1" class="text">Leapepe</a>
