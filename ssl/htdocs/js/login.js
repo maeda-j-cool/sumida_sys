@@ -150,7 +150,7 @@ $(function() {
     });
 
     $('#act-preview').click(() => {
-        location.href = '/sb3//type/trial/';
+        location.href = '/sb3/type/trial/';
         return false;
     });
 
