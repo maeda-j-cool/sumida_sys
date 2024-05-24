@@ -52,7 +52,7 @@
             <div class="rightColumn">
 {if $expiry_ymd}
                 <p class="rightColumn_deadline">
-                    <a href="{wt_action_url mod="" act=""}/CardList/CardList/#cardlist">有効期限<span>{$expiry_ymd|wt_date_format:'Y年m月d日(D)'}</span>まで</a>
+                    <a>有効期限<span>{$expiry_ymd|wt_date_format:'Y年m月d日(D)'}</span>まで</a>
                 </p>
 {/if}
                 <p class="rightColumn_points">

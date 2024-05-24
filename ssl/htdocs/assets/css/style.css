@@ -5100,3 +5100,6 @@ div#undercolumn_entry .message {
     display: none;
   }
 }
+.rightColumn_deadline a:hover {
+opacity: initial;
+}
