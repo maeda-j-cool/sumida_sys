@@ -103,11 +103,13 @@
                         <p>マイページ</p>
                     </a>
                 </li>
+{if $remain_point > 0}
                 <li class="utility_navigation_item">
                     <a href="{wt_action_url mod='Order' act='OrdererInfoInput'}"><img src="/assets/img/icon_cart.svg" alt="カート">
                         <p>カート</p>
                     </a>
                 </li>
+{/if}
 {/if}
                 <li class="utility_navigation_item">
                     <div class="button_pcNav"><span></span><span></span><span></span></div>
@@ -153,11 +155,13 @@
                         <p>お気に入り</p>
                     </a>
                 </li>
+{if $remain_point > 0}
                 <li class="utility_navigation_item">
                     <a href="{wt_action_url mod='Order' act='OrdererInfoInput'}"><img src="/assets/img/icon_cart_white.svg" alt="カート" width="50px"  height="50px">
                         <p>カート</p>
                     </a>
                 </li>
+{/if}
 {/if}
                 <li class="utility_navigation_item">
                     <div class="button"><span></span><span></span><span></span></div>
