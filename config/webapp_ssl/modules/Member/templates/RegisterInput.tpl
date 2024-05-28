@@ -21,7 +21,7 @@
     <div class="c-inner">
         <section class="l-section l-section--re">
             <div class="l-section__wrap">
-                <h2 class="l-section__title">利用申請登録</h2>
+                <h2 class="l-section__title">利用者情報登録</h2>
             <!-- <div class="infosaddComfirm infotopComfirm">
                 <label class="check_guide" for="allot">
                     <input type="checkbox" name="myCheckbox" class="custom-checkbox" id="allot">
@@ -43,7 +43,10 @@
                         <p class="st_person">（1人目）</p>
                         <table>
                             <tr>
-                                <th>お名前<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お名前</p>
+                                </th>
                                 <td>{strip}
                                     <span class="mr15">姓</span>
                                     <input type="text" name="{$const.I_SEI_KANJI1}" value="{$wt__posts[$const.I_SEI_KANJI1]|escape}" class="mr30" autocomplete="family-name">
@@ -53,7 +56,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>お名前（ふりがな）<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お名前（ふりがな）</p>
+                                </th>
                                 <td>{strip}
                                     <span class="mr15">せい</span>
                                     <input type="text" name="{$const.I_SEI_KANA1}" value="{$wt__posts[$const.I_SEI_KANA1]|escape}" class="mr30" autocomplete="family-name">
@@ -63,7 +69,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>続柄<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>続柄</p>
+                                </th>
                                 <td>
                                     <span class="tableInfo__select">
 {html_options
@@ -80,7 +89,10 @@
                         <p class="st_person">（2人目）</p>
                         <table>
                             <tr>
-                                <th>お名前<span class="any_">任意</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="any_">任意</span>
+                                    <p>お名前</p>
+                                </th>
                                 <td>{strip}
                                     <span class="mr15">姓</span>
                                     <input type="text" name="{$const.I_SEI_KANJI2}" value="{$wt__posts[$const.I_SEI_KANJI2]|escape}" class="mr30" autocomplete="family-name">
@@ -90,7 +102,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>お名前（ふりがな）<span class="any_">任意</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="any_">任意</span>
+                                    <p>お名前（ふりがな）</p>
+                                </th>
                                 <td>{strip}
                                     <span class="mr15">せい</span>
                                     <input type="text" name="{$const.I_SEI_KANA2}" value="{$wt__posts[$const.I_SEI_KANA2]|escape}" class="mr30" autocomplete="family-name">
@@ -100,7 +115,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>続柄<span class="any_">任意</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="any_">任意</span>
+                                    <p>続柄</p>
+                                </th>
                                 <td>
                                     <span class="tableInfo__select">
 {html_options
@@ -118,11 +136,14 @@
                         <h3 class="tableInfo__title">お子さまの氏名・生年月日</h3>
                         <table>
                             <tr class="u-tableInfo">
-                                <th>お子様は<br>第何子ですか</th>
-                                <td>第１子</td>
+                                <th>お子様の情報</th>
+                                <td>{$settings.kenshu_name}</td>
                             </tr>
                             <tr>
-                                <th>お名前<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お名前</p>
+                                    </th>
                                 <td>{strip}
                                     <span class="mr15">姓</span>
                                     <input type="text" name="{$const.I_SEI_KANJI3}" value="{$wt__posts[$const.I_SEI_KANJI3]|escape}" class="mr30" autocomplete="family-name">
@@ -132,7 +153,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>お名前（ふりがな）<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お名前（ふりがな）</p>
+                                </th>
                                 <td>{strip}
                                     <span class="mr15">せい</span>
                                     <input type="text" name="{$const.I_SEI_KANA3}" value="{$wt__posts[$const.I_SEI_KANA3]|escape}" class="mr30" autocomplete="family-name">
@@ -142,7 +166,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>生年月日<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>生年月日</p>
+                                </th>
                                 <td>
                                     <span class="tableInfo__select">
 {html_options
@@ -183,7 +210,10 @@
                         <h3 class="tableInfo__title">住所</h3>
                         <table>
                             <tr>
-                                <th>郵便番号<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>郵便番号</p>
+                                </th>
                                 <td>{strip}
 <input type="number" name="{$const.I_ZIPCODE_1|escape}" value="{$wt__posts[$const.I_ZIPCODE_1]|escape}" size="4" maxlength="3" onKeyUp="AjaxZip3.zip2addr('{$const.I_ZIPCODE_1|escape}','{$const.I_ZIPCODE_2|escape}','{$const.I_ADDRESS_1|escape}','{$const.I_ADDRESS_2|escape}');" autocomplete="postal-code" pattern="\d{3}">
 &nbsp;－&nbsp;
@@ -191,7 +221,10 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>都道府県<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <p>都道府県</p>
+                                    <span class="mandatory_">必須</span>
+                                </th>
                                 <td>
                                     <div class="tableInfo__select">
 {html_options
@@ -204,13 +237,19 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>市区町村 番地<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>市区町村 番地</p>
+                                </th>
                                 <td>
                                     <input type="text" name="{$const.I_ADDRESS_2|escape}" value="{$wt__posts[$const.I_ADDRESS_2]|escape}" class="tableInfo__bigInput" autocomplete="address-level2">
                                 </td>
                             </tr>
                             <tr>
-                                <th>建物名 部屋番号<span class="any_">任意</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="any_">任意</span>
+                                    <p>建物名 部屋番号</p>
+                                </th>
                                 <td>
                                     <input type="text" name="{$const.I_ADDRESS_3|escape}" value="{$wt__posts[$const.I_ADDRESS_3]|escape}" class="tableInfo__bigInput" autocomplete="address-level4">
                                 </td>
@@ -224,6 +263,10 @@
                         <table>
                             <tr>
                                 <th>電話番号1<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>電話番号1</p>
+                                </th>
                                 <td>{strip}
 <input type="tel" name="{$const.I_TEL1_1|escape}" value="{$wt__posts[$const.I_TEL1_1]|escape}" class="short" placeholder="" maxlength="6" autocomplete="tel">
 　-　
@@ -234,6 +277,10 @@
                             </tr>
                             <tr>
                                 <th>電話番号2<span class="any_">任意</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="any_">任意</span>
+                                    <p>電話番号2</p>
+                                </th>
                                 <td>{strip}
 <input type="tel" name="{$const.I_TEL2_1|escape}" value="{$wt__posts[$const.I_TEL2_1]|escape}" class="short" placeholder="" maxlength="6" autocomplete="tel">
 　-　
@@ -249,7 +296,9 @@
                         <h3 class="tableInfo__title">メールアドレス</h3>
                         <table>
                             <tr>
-                                <th>メールアドレス</th>
+                                <th class="tableInfo_th">
+                                    <p>メールアドレス</p>
+                                </th>
                                 <td>
                                     {$wt__posts[$const.S_EMAIL]|escape}
                                 </td>
@@ -261,7 +310,10 @@
                         <h3 class="tableInfo__title">ユーザーパスワード</h3>
                         <table>
                             <tr>
-                                <th>新しいパスワード<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>新しいパスワード</p>
+                                </th>
                                 <td>
 <input type="password" name="{$const.I_PASSWORD1|escape}" value="" id="password1" class="tableInfo__bigInput" autocomplete="new-password">
 <span id="buttonEye" class="fa fa-eye" onclick="togglePasswordVisibility('password1', 'buttonEye')"></span>
@@ -271,7 +323,9 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>新しいパスワード（確認）</th>
+                                <th class="tableInfo_th">
+                                    <p>新しいパスワード（確認）</p>
+                                </th>
                                 <td>
 <input type="password" name="{$const.I_PASSWORD2|escape}" value="" id="password2" class="tableInfo__bigInput" autocomplete="new-password">
 <span id="buttonEye1" class="fa fa-eye" onclick="togglePasswordVisibility('password2', 'buttonEye1')"></span>
@@ -326,30 +380,6 @@
                                             <input type="checkbox" name="{$post_name|escape}[]" value="{$oid|escape}" id="{$post_name|escape}_{$oid|escape}"{if is_array($post_value) && in_array($oid, $post_value)} checked{/if}>
                                             <label for="{$post_name|escape}_{$oid|escape}">{$option.M37TEXT|escape}</label>
 {if $option.M37HASFREE == '1'}
-{if $enquete.M36SEQ|escape == '1'}
-{* 墨田区専用：特殊>>> *}
-{assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
-{assign var="post_name_ex_n" value="{$post_name|escape}_{$oid|escape}_n"}
-{assign var="post_name_ex_age1" value="{$post_name|escape}_{$oid|escape}_age1"}
-{assign var="post_name_ex_age2" value="{$post_name|escape}_{$oid|escape}_age2"}
-{assign var="post_name_ex_age3" value="{$post_name|escape}_{$oid|escape}_age3"}
-{if isset($wt__posts[$post_name_ex_n])}{assign var="post_value_ex_n" value="{$wt__posts[$post_name_ex_n]}"}{else}{assign var="post_value_ex_n" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age1])}{assign var="post_value_ex_age1" value="{$wt__posts[$post_name_ex_age1]}"}{else}{assign var="post_value_ex_age1" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age2])}{assign var="post_value_ex_age2" value="{$wt__posts[$post_name_ex_age2]}"}{else}{assign var="post_value_ex_age2" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age3])}{assign var="post_value_ex_age3" value="{$wt__posts[$post_name_ex_age3]}"}{else}{assign var="post_value_ex_age3" value=""}{/if}
-<span class="tableInfo_data">{strip}
-■人数：
-<input type="number" name="{$post_name_ex_n|escape}" value="{$post_value_ex_n|escape}" size="3">名
-&emsp;
-■年齢：
-<input type="number" name="{$post_name_ex_age1|escape}" value="{$post_value_ex_age1|escape}" size="3" maxlength="2">歳
-&emsp;
-<input type="number" name="{$post_name_ex_age2|escape}" value="{$post_value_ex_age2|escape}" size="3" maxlength="2">歳
-&emsp;
-<input type="number" name="{$post_name_ex_age3|escape}" value="{$post_value_ex_age3|escape}" size="3" maxlength="2">歳
-{/strip}</span>
-{* <<<墨田区専用：特殊 *}
-{else}
 {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
 {if is_array($post_value) && in_array($oid, $post_value) && isset($wt__posts[$post_name_ex])}
 {assign var="post_value_ex" value="{$wt__posts[$post_name_ex]}"}
@@ -357,7 +387,6 @@
 {assign var="post_value_ex" value=""}
 {/if}
                                             <textarea type="text" name="{$post_name_ex|escape}" rows="1" style="min-height:initial;">{$post_value_ex|escape}</textarea>
-{/if}
 {/if}
                                         </div>
 {/foreach}

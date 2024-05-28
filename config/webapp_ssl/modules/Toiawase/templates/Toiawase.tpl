@@ -60,7 +60,10 @@
                             <table>
                                 <tbody>
                                 <tr>
-                                    <th>お名前<span class="mandatory_">必須</span></th>
+                                    <th class="tableInfo_th">
+                                        <span class="mandatory_">必須</span>
+                                        <p>お名前</p>
+                                    </th>
                                     <td>{strip}
                                         <span class="mr15">姓</span>
                                         <input type="text" name="{$const.I_SEI_KANJI}" value="{$wt__posts[$const.I_SEI_KANJI]|escape}" class="mr30">
@@ -70,7 +73,10 @@
                                     {/strip}</td>
                                 </tr>
                                 <tr>
-                                    <th>お名前（ふりがな）<span class="mandatory_">必須</span></th>
+                                    <th class="tableInfo_th">
+                                        <span class="mandatory_">必須</span>
+                                        <p>お名前（ふりがな）</p>
+                                    </th>
                                     <td>{strip}
                                         <span class="mr15">せい</span>
                                         <input type="text" name="{$const.I_SEI_KANA}" value="{$wt__posts[$const.I_SEI_KANA]|escape}" class="mr30">
@@ -88,18 +94,24 @@
                         <table>
                             <tbody>
                             <tr>
-                                <th>メールアドレス<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>メールアドレス</p>
+                                </th>
                                 <td>
                                     <div class="mailcheck">
                                         <input type="email" name="{$const.I_EMAIL}" value="{$wt__posts[$const.I_EMAIL]|escape}" class="long" placeholder="" maxlength="129">
                                     </div>
                                     <p class="tableInfo__note">
-                                        ※「@」の直前にドットのあるメールアドレスや、連続したドットを含むメールアドレスはご利用いただけません。例） kyoto.@nakano-birthday.net、kyoto...kyoto@nakano-birthday.net など
+                                        ※「@」の直前にドットのあるメールアドレスや、連続したドットを含むメールアドレスはご利用いただけません。例） sample.@sample.net、sample...sample@sample.net など
                                     </p>
                                 </td>
                             </tr>
                             <tr>
-                                <th>メールアドレス(確認用)<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>メールアドレス(確認用)</p>
+                                </th>
                                 <td>
                                     <input type="email" name="{$const.I_EMAIL_CF}" value="{$wt__posts[$const.I_EMAIL_CF]|escape}" class="long" placeholder="" maxlength="129">
                                 </td>
@@ -112,7 +124,10 @@
                         <table>
                             <tbody>
                             <tr>
-                                <th>電話番号<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>電話番号</p>
+                                </th>
                                 <td>{strip}
 <input type="tel" name="{$const.I_TEL1}" value="{$wt__posts[$const.I_TEL1]|escape}" class="short" placeholder="" maxlength="6">
 　-　
@@ -130,7 +145,10 @@
                             <tbody>
 {if !empty($option_inquiry_items)}
                             <tr>
-                                <th>お問い合わせ項目を選択<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お問い合わせ項目を選択</p>
+                                </th>
                                 <td>
 {html_options
     name="{$const.I_INQUIRY_ITEM}"
@@ -141,7 +159,10 @@
                             </tr>
 {/if}
                             <tr>
-                                <th>お問い合わせ内容<br>（350文字まで）<span class="mandatory_">必須</span></th>
+                                <th class="tableInfo_th">
+                                    <span class="mandatory_">必須</span>
+                                    <p>お問い合わせ内容<br>（350文字まで）</p>
+                                </th>
                                 <td>
 <textarea name="{$const.I_INQUIRY_TEXT}" rows="12" cols="80" placeholder="" maxlength="350">{strip}
 {$wt__posts[$const.I_INQUIRY_TEXT]|escape}
