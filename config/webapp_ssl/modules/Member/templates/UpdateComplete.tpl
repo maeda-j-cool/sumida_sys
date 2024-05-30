@@ -29,9 +29,6 @@
                     <div class="c-top__titlebox">
                         <h2 class="l-section__title">利用者登録情報/パスワードの変更完了</h2>
                     </div>
-                    <div class="completeImg">
-                        <img src="/assets/img/cart/complete_1.svg" alt="鳥の親子">
-                    </div>
                     <div class="tableInfos__btns tableInfos__btns--complete pc">
                         <div class="cntFtrButtons">
                             <div class="cntFtrBtn_top btn_gold01 btn_hover01 btn--info btn--info--top" style="text-align:center;">

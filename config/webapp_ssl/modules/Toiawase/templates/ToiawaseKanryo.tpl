@@ -45,9 +45,6 @@
                         <h2 class="l-section__title">送信しました</h2>
                     </div>
 {* 問い合わせ番号 => $toiawase_no *}
-                    <div class="completeImg">
-                        <img src="/assets/img/cart/complete_1.svg" alt="鳩の親子">
-                    </div>
                     <div class="tableInfos__btns tableInfos__btns--complete pc">
                         <div class="cntFtrButtons">
                             <div class="cntFtrBtn_top btn_gold01 btn_hover01 btn--info btn--info--top" style="text-align:center;">
