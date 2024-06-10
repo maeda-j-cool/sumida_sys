@@ -262,7 +262,6 @@
                         <h3 class="tableInfo__title">電話番号</h3>
                         <table>
                             <tr>
-                                <th>電話番号1<span class="mandatory_">必須</span></th>
                                 <th class="tableInfo_th">
                                     <span class="mandatory_">必須</span>
                                     <p>電話番号1</p>
@@ -276,7 +275,6 @@
                                 {/strip}</td>
                             </tr>
                             <tr>
-                                <th>電話番号2<span class="any_">任意</span></th>
                                 <th class="tableInfo_th">
                                     <span class="any_">任意</span>
                                     <p>電話番号2</p>
