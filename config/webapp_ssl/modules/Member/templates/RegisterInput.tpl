@@ -133,12 +133,8 @@
                     </div>
 
                     <div class="tableInfo">
-                        <h3 class="tableInfo__title">お子さまの氏名・生年月日</h3>
+                        <h3 class="tableInfo__title">1歳を迎えたお子さまの氏名・生年月日</h3>
                         <table>
-                            <tr class="u-tableInfo">
-                                <th>お子様の情報</th>
-                                <td>{$settings.kenshu_name}</td>
-                            </tr>
                             <tr>
                                 <th class="tableInfo_th">
                                     <span class="mandatory_">必須</span>
@@ -196,6 +192,10 @@
 }
                                     </span>
                                 </td>
+                            </tr>
+                            <tr class="u-tableInfo">
+                                <th>お子さまの情報</th>
+                                <td>{$settings.kenshu_name}</td>
                             </tr>
                         </table>
                         <div class="u-annotation">
@@ -434,7 +434,7 @@
                         <label class="check_guide" for="consent_return">
                             <input type="checkbox" name="myCheckbox" class="custom-checkbox" id="consent_return">
                             <span class="checkmark"></span>
-                            利用資格に欠けることが判明した場合には、利用額を区宛返還します（事後での発覚を含む）。
+                            利用規約に違反された場合は、ポイントの取り消しを行います。
                         </label>
                     </div>
                     <div class="infosaddComfirm">
@@ -448,7 +448,7 @@
                         <label class="check_guide" for="consent_contact">
                             <input type="checkbox" name="myCheckbox" class="custom-checkbox" id="consent_contact">
                             <span class="checkmark"></span>
-                            このアンケートをもとに、区職員(お住まいの地域のすこやか福祉センター)からご連絡させていただくこともあります。
+                            このアンケートをもとに、墨田区健康推進課からご連絡させていただくこともあります。
                         </label>
                     </div>
                     <div class="infosaddComfirm">
