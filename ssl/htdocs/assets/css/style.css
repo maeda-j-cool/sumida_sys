@@ -2342,6 +2342,7 @@ input[name=tab_item] {
 
 .buttonopen span:first-of-type {
   transform: translateY(15px) rotate(-45deg);
+  background: #FFF;
 }
 
 .buttonopen span:nth-of-type(2) {
@@ -2350,6 +2351,7 @@ input[name=tab_item] {
 
 .buttonopen span:last-of-type {
   transform: translateY(-15px) rotate(45deg);
+  background: #FFF;
 }
 
 .button_pcNav {
@@ -4066,12 +4068,14 @@ html.no-scroll {
   .before-login-header {
     position: fixed;
     z-index: 99;
+    background-color: #FFF;
+    padding: 0px 0 20px;
   }
   .before-login-header .headerNav {
     display: none;
   }
   .before-login-header .button_span {
-    background: #fff;
+    background: #000;
   }
   .before-login-header .button {
     top: 0;
