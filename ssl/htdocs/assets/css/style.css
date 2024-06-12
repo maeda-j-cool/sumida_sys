@@ -4069,7 +4069,7 @@ html.no-scroll {
     position: fixed;
     z-index: 99;
     background-color: #FFF;
-    padding: 0px 0 20px;
+    padding: 8px 0 30px;
   }
   .before-login-header .headerNav {
     display: none;
