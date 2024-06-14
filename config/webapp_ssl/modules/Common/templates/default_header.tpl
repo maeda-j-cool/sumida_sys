@@ -360,11 +360,71 @@
         <span class="button_span"></span>
         <span class="button_span"></span>
     </div>
-    <ul class="nav">
-        <li class="nav__list"><a href="{wt_action_url mod="" act=""}#top-connection">墨田区の子育て支援情報</a></li>
-        <li class="nav__list"><a class="modal-login" href="{wt_action_url mod="Default" act="Login"}?act=l">ログイン</a></li>
-        <li class="nav__list"><a class="modal-first" href="{wt_action_url mod="Default" act="Login"}?act=r">初回登録</a></li>
-    </ul>
+<!-- ここから -->
+<ul class="utility_navigation_list">
+                    <li class="utility_navigation_item">
+                        <ul class="nav">
+                            <li class="nav-accordion">
+                                <div id="container">
+                                    <div class="faq" id="main-area">
+                                        <section class="list" id="area-1">
+                                            <ul class="accordion-area">
+                                                <li class="accordion-area__list">
+                                                    <section>
+                                                        <dl>
+                                                            <div class="question accordion-sub-title">
+                                                                <dt class="accordion-area__title sp-none">Language</dt>
+                                                                <dt class="accordion-area__title pc-none"><span class="accordion-area-span">Language</span></dt>
+                                                            </div>
+                                                            <div class="answer_box" style="display: none;">
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="ja" data-stt-ignore="" data-stt-active="">日本語</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="" data-stt-ignore="" data-stt-active="">Indonesia</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="" data-stt-ignore="" data-stt-active="">Espanol</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="tl" data-stt-ignore="" data-stt-active="">Tagalog</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="vi" data-stt-ignore="" data-stt-active="">Ti?ng Vi?t</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="pt" data-stt-ignore="" data-stt-active="">Portugues</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="en" data-stt-ignore="">English</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="ko" data-stt-ignore="">??</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="zh-CN" data-stt-ignore="">?体中文</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="zh-TW" data-stt-ignore="">繁體中文</a>
+                                                                </dd>
+                                                                <dd class="line">
+                                                                    <a href="#" data-stt-changelang="" data-stt-ignore="">????</a>
+                                                                </dd>
+                                                            </div>
+                                                        </dl>
+                                                    </section>
+                                                </li>
+                                            </ul>
+                                        </section> <!-- area-1 -->
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="nav__list"><a href="#">文字サイズ</a></li> -->
+                            <!-- <li class="nav__list"><a href="{wt_action_url app="webapp" mod="Withdraw" act="Withdrawal"}">ポイント利用辞退申請</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+<!-- ここまで -->
     <div class="header_inner">
         <h1 class="before-login-logo">
             <figure class="sp-none"><a href="{wt_action_url mod="" act=""}"><img src="/assets/img/before-login.svg" alt="ロゴ"></a></figure>
