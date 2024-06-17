@@ -402,7 +402,7 @@
                                                                     <a href="#" data-stt-changelang="ko" data-stt-ignore="">한국</a>
                                                                 </dd>
                                                                 <dd class="line">
-                                                                    <a href="#" data-stt-changelang="zh-CN" data-stt-ignore="">?体中文</a>
+                                                                    <a href="#" data-stt-changelang="zh-CN" data-stt-ignore="">简体中文</a>
                                                                 </dd>
                                                                 <dd class="line">
                                                                     <a href="#" data-stt-changelang="zh-TW" data-stt-ignore="">繁體中文</a>
