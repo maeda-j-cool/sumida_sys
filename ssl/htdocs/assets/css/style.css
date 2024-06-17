@@ -2450,6 +2450,8 @@ html.no-scroll {
   }
   .header_inner {
     height: 0;
+    position: absolute;
+    top: 4%;
   }
   .button {
     display: inline-block;

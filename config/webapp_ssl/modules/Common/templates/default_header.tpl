@@ -399,7 +399,7 @@
                                                                     <a href="#" data-stt-changelang="en" data-stt-ignore="">English</a>
                                                                 </dd>
                                                                 <dd class="line">
-                                                                    <a href="#" data-stt-changelang="ko" data-stt-ignore="">??</a>
+                                                                    <a href="#" data-stt-changelang="ko" data-stt-ignore="">한국</a>
                                                                 </dd>
                                                                 <dd class="line">
                                                                     <a href="#" data-stt-changelang="zh-CN" data-stt-ignore="">?体中文</a>
@@ -408,7 +408,7 @@
                                                                     <a href="#" data-stt-changelang="zh-TW" data-stt-ignore="">繁體中文</a>
                                                                 </dd>
                                                                 <dd class="line">
-                                                                    <a href="#" data-stt-changelang="" data-stt-ignore="">????</a>
+                                                                    <a href="#" data-stt-changelang="" data-stt-ignore="">اردو</a>
                                                                 </dd>
                                                             </div>
                                                         </dl>
