@@ -392,7 +392,7 @@
 {elseif $enquete.M36OPTIONTYPE == '20'}{* 自由入力 *}
                                     <td>
                                         <div class="item__textarea">
-                                            <textarea name="{$post_name|escape}" rows="4" cols="30" data-dl-input-translation="true">{$post_value|escape}</textarea>
+                                            <textarea name="{$post_name|escape}" rows="30" cols="92" data-dl-input-translation="true">{$post_value|escape}</textarea>
                                         </div>
                                     </td>
 {/if}

@@ -269,30 +269,6 @@
                                             <input type="checkbox" name="{$post_name|escape}[]" value="{$oid|escape}" id="{$post_name|escape}_{$oid|escape}"{if is_array($post_value) && in_array($oid, $post_value)} checked{/if}>
                                             <label for="{$post_name|escape}_{$oid|escape}">{$option.M37TEXT|escape}</label>
 {if $option.M37HASFREE == '1'}
-{if $enquete.M36SEQ|escape == '1'}
-{* 墨田区専用：特殊>>> *}
-{assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
-{assign var="post_name_ex_n" value="{$post_name|escape}_{$oid|escape}_n"}
-{assign var="post_name_ex_age1" value="{$post_name|escape}_{$oid|escape}_age1"}
-{assign var="post_name_ex_age2" value="{$post_name|escape}_{$oid|escape}_age2"}
-{assign var="post_name_ex_age3" value="{$post_name|escape}_{$oid|escape}_age3"}
-{if isset($wt__posts[$post_name_ex_n])}{assign var="post_value_ex_n" value="{$wt__posts[$post_name_ex_n]}"}{else}{assign var="post_value_ex_n" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age1])}{assign var="post_value_ex_age1" value="{$wt__posts[$post_name_ex_age1]}"}{else}{assign var="post_value_ex_age1" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age2])}{assign var="post_value_ex_age2" value="{$wt__posts[$post_name_ex_age2]}"}{else}{assign var="post_value_ex_age2" value=""}{/if}
-{if isset($wt__posts[$post_name_ex_age3])}{assign var="post_value_ex_age3" value="{$wt__posts[$post_name_ex_age3]}"}{else}{assign var="post_value_ex_age3" value=""}{/if}
-<span class="tableInfo_data">{strip}
-■人数：
-<input type="number" name="{$post_name_ex_n|escape}" value="{$post_value_ex_n|escape}" size="3">名
-&emsp;
-■年齢：
-<input type="number" name="{$post_name_ex_age1|escape}" value="{$post_value_ex_age1|escape}" size="3" maxlength="2">歳
-&emsp;
-<input type="number" name="{$post_name_ex_age2|escape}" value="{$post_value_ex_age2|escape}" size="3" maxlength="2">歳
-&emsp;
-<input type="number" name="{$post_name_ex_age3|escape}" value="{$post_value_ex_age3|escape}" size="3" maxlength="2">歳
-{/strip}</span>
-{* <<<墨田区専用：特殊 *}
-{else}
 {assign var="post_name_ex" value="{$post_name|escape}_{$oid|escape}"}
 {if is_array($post_value) && in_array($oid, $post_value) && isset($wt__posts[$post_name_ex])}
 {assign var="post_value_ex" value="{$wt__posts[$post_name_ex]}"}
@@ -301,14 +277,13 @@
 {/if}
                                             <textarea type="text" name="{$post_name_ex|escape}" rows="1" style="min-height:initial;">{$post_value_ex|escape}</textarea>
 {/if}
-{/if}
                                         </div>
 {/foreach}
                                     </td>
 {elseif $enquete.M36OPTIONTYPE == '20'}{* 自由入力 *}
                                     <td>
                                         <div class="item__textarea">
-                                            <textarea name="{$post_name|escape}" rows="4" cols="30" data-dl-input-translation="true">{$post_value|escape}</textarea>
+                                            <textarea name="{$post_name|escape}" rows="30" cols="92" data-dl-input-translation="true">{$post_value|escape}</textarea>
                                         </div>
                                     </td>
 {/if}
