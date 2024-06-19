@@ -328,7 +328,7 @@
             <ul class="brand__box">
                 <li class="brand__list">
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152000/tabAllFlg/1" class="text">10mois</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152000/tabAllFlg/1" class="text">ディモワ</a>
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152010/tabAllFlg/1" class="text">アップリカ</a>
@@ -348,9 +348,9 @@
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152070/tabAllFlg/1" class="text">ボーネルンド</a>
                     </div>
-                    <div class="btn">
+                    <!-- <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152080/tabAllFlg/1" class="text">ポロ ラルフ ローレン</a>
-                    </div>
+                    </div> -->
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152090/tabAllFlg/1" class="text">ミキハウス</a>
                     </div>
