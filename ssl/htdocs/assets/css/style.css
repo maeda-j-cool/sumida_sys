@@ -2217,7 +2217,7 @@ input[name=tab_item] {
   }
 }
 .nav {
-  background: var(--color-title);
+  background: #CE4074;
   padding-top: 180px;
   display: block;
   box-sizing: border-box;
