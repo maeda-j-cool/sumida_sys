@@ -357,6 +357,9 @@
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152110/tabAllFlg/1" class="text">Leapepe</a>
                     </div>
+                    <div class="btn">
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152015/tabAllFlg/1" class="text">エド・インター</a>
+                    </div>
 
                 </li>
             </ul>
