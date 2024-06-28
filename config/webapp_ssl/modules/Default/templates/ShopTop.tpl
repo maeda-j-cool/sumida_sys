@@ -328,10 +328,10 @@
             <ul class="brand__box">
                 <li class="brand__list">
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152000/tabAllFlg/1" class="text">ディモワ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152010/tabAllFlg/1" class="text">アップリカ</a>
                     </div>
                     <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152010/tabAllFlg/1" class="text">アップリカ</a>
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152015/tabAllFlg/1" class="text">エド・インター</a>
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152020/tabAllFlg/1" class="text">カトージ</a>
@@ -343,24 +343,23 @@
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152040/tabAllFlg/1" class="text">ディズニー</a>
                     </div>
                     <div class="btn">
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152000/tabAllFlg/1" class="text">ディモワ</a>
+                    </div>
+                    <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152060/tabAllFlg/1" class="text">プリスティン</a>
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152070/tabAllFlg/1" class="text">ボーネルンド</a>
                     </div>
-                    <!-- <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152080/tabAllFlg/1" class="text">ポロ ラルフ ローレン</a>
-                    </div> -->
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152090/tabAllFlg/1" class="text">ミキハウス</a>
                     </div>
                     <div class="btn">
                         <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152110/tabAllFlg/1" class="text">Leapepe</a>
                     </div>
-                    <div class="btn">
-                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152015/tabAllFlg/1" class="text">エド・インター</a>
-                    </div>
-
+                    <!-- <div class="btn">
+                        <a href="{wt_action_url mod="SS" act="CS"}group/cat_brand/catid/0-152080/tabAllFlg/1" class="text">ポロ ラルフ ローレン</a>
+                    </div> -->
                 </li>
             </ul>
         </section>
