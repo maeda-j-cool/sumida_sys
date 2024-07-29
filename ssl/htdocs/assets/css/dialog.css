@@ -5,11 +5,11 @@
 ---------------------------------------------------------------------- **/
 
 :root {
-  --color-main: #EBEBEB;
-  --color-sub: #F9EDE1;
-  --color-title: #D84800;
-  --color-button: #D84800;
-  --color-button-2: #D84800;
+	--color-main: #EBEBEB;
+	--color-sub: #FFFAEE;
+	--color-button: #CE4074;
+	--color-text: #000;
+	--color-title:#CE4074;
 }
 
 
