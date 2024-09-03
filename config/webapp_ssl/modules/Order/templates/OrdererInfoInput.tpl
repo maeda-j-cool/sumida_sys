@@ -169,7 +169,7 @@
                             <tr>
                                 <th>郵便番号<span class="mandatory_">必須</span></th>
                                 <td>{strip}
-                                    <input type="number" name="{$const.ZIP1|escape}" value="{$wt__posts[$const.ZIP1]|escape}" size="4" maxlength="3" onKeyUp="AjaxZip3.zip2addr('{$const.ZIP1|escape}','{$const.ZIP2|escape}','{$const.ADD1|escape}','{$const.ADD2|escape}');" pattern="\d{3}">
+                                    <input type="number" name="{$const.ZIP1|escape}" value="{$wt__posts[$const.ZIP1]|escape}" size="4" maxlength="3" onKeyUp="AjaxZip3.zip2addr('{$const.ZIP1|escape}','{$const.ZIP2|escape}','{$const.ADD1|escape}','{$const.ADD2|escape}', '', '', false);" pattern="\d{3}">
                                     &nbsp;－&nbsp;
                                     <input type="number" name="{$const.ZIP2|escape}" value="{$wt__posts[$const.ZIP2]|escape}" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('{$const.ZIP1|escape}','{$const.ZIP2|escape}','{$const.ADD1|escape}','{$const.ADD2|escape}');" pattern="\d{4}">
                                 {/strip}</td>

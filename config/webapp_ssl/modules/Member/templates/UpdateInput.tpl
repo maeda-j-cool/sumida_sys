@@ -133,9 +133,9 @@
                                     <p>郵便番号</p>
                                 </th>
                                 <td>{strip}
-<input type="number" name="{$const.I_ZIPCODE_1|escape}" value="{$wt__posts[$const.I_ZIPCODE_1]|escape}" size="4" maxlength="3" onKeyUp="AjaxZip3.zip2addr('{$const.I_ZIPCODE_1|escape}','{$const.I_ZIPCODE_2|escape}','{$const.I_ADDRESS_1|escape}','{$const.I_ADDRESS_2|escape}');" autocomplete="postal-code" pattern="\d{3}">
+<input type="number" name="{$const.I_ZIPCODE_1|escape}" value="{$wt__posts[$const.I_ZIPCODE_1]|escape}" size="4" maxlength="3" onKeyUp="AjaxZip3.zip2addr('{$const.I_ZIPCODE_1|escape}','{$const.I_ZIPCODE_2|escape}','{$const.I_ADDRESS_1|escape}','{$const.I_ADDRESS_2|escape}', '', '', false);" pattern="\d{3}">
 &nbsp;－&nbsp;
-<input type="number" name="{$const.I_ZIPCODE_2|escape}" value="{$wt__posts[$const.I_ZIPCODE_2]|escape}" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('{$const.I_ZIPCODE_1|escape}','{$const.I_ZIPCODE_2|escape}','{$const.I_ADDRESS_1|escape}','{$const.I_ADDRESS_2|escape}');" autocomplete="postal-code" pattern="\d{4}">
+<input type="number" name="{$const.I_ZIPCODE_2|escape}" value="{$wt__posts[$const.I_ZIPCODE_2]|escape}" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('{$const.I_ZIPCODE_1|escape}','{$const.I_ZIPCODE_2|escape}','{$const.I_ADDRESS_1|escape}','{$const.I_ADDRESS_2|escape}');" pattern="\d{4}">
                                 {/strip}</td>
                             </tr>
                             <tr>
