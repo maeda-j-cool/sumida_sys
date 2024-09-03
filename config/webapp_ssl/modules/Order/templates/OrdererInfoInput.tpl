@@ -82,7 +82,7 @@
                                 <br>
                                 <input type="radio" name="haiso_select_{$shohin_no|escape}" value="1" class="haiso_sel" id="yes_{$shohin_no|escape}"{if $hv == '1'} checked{/if}>
                                 <label for="yes_{$shohin_no|escape}">
-                                    指定あり　<span class="preferredDate__radiosNote">※21日以降でのお届け指定が可能です。</span>
+                                    指定あり　<span class="preferredDate__radiosNote">※14日目以降でのお届け指定が可能です。</span>
                                 </label>
                             {/strip}</div>
 {/if}
@@ -106,15 +106,15 @@
 {**}
                 <div class="point-change">
                     <p class="text">商品と交換できるポイントがあと<br class="sp"><span class="remain-points"></span>ポイント余っています。<br>
-                        ご一緒に他の商品もいかがですか？</p>
-                    <ul class="point-box-cart">
+                        お申し込みは1回限りとなります。付与されたポイントを使い切るようにお申し込みください。</p>
+                  <!--   <ul class="point-box-cart">
                         <li class="login-point__point login-point__cart">
                             <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110050/tabAllFlg/1" class="text">5,000pt</a>
                         </li>
                         <li class="login-point__point login-point__cart">
                             <a href="{wt_action_url mod="SS" act="CS"}group/cat_point/catid/0-110080/tabAllFlg/1" class="text">10,000pt</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
 {**}
                 <h2 class="l-section__title l-section__title--cart l-section__title--cart--sp">お届け先情報</h2>
