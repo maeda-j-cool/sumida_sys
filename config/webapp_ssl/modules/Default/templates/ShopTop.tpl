@@ -252,6 +252,13 @@
     </article>
 {/if}
 
+<article class="login-point -season">
+    <h2 class="login-point__title">シーズン特集</h2>
+    <div class="season-box">
+        <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-94100/tabAllFlg/1" class="link"><img src="/assets/img/banner_gift.png" alt="クリスマスギフト"></a>
+    </div>
+</article>
+
 <article class="special-feature">
     <section class="special-feature__inner">
         <h2 class="title" id="top-Special-feature">おすすめ特集</h2>

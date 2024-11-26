@@ -359,6 +359,23 @@
   top: 20px;
 }
 
+.login-point.-season .season-box {
+  display: flex;
+  max-width: 1008px;
+  margin: 0 auto 100px;
+}
+.login-point.-season .season-box > .link {
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .login-point.-season .season-box {
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+}
+
 .point-box {
   display: flex;
   max-width: 1008px;
