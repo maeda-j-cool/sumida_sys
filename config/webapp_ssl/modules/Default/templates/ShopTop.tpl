@@ -19,6 +19,14 @@
 
 {kenshu_include template="message"}
 
+{if date("Y-m-d H:i:s") >= "2024-12-24 09:00:00" && date("Y-m-d H:i:s") < "2025-01-01 10:00:00"}
+    <section class="login-notice">
+        <div class="login-notice__notice">
+            <a href="/info/index_maintenance.html"><p class="title">2025年1月1日 システムメンテナンス実施のお知らせ</p></a>
+</div>
+    </section>
+{/if}
+    
 {*
     <!--<section class="login-notice">
         <div class="login-notice__notice">
