@@ -285,6 +285,9 @@
         <div class="item4">
             <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153020/tabAllFlg/1" class="item4__text">墨田区ゆかりの品</a>
         </div>
+        <div class="item_season">
+            <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-153050/tabAllFlg/1" class="itemseason__text"><img src="/assets/img/special-feature-season.png" alt="桃の節句特集"></a>
+        </div>
         <!-- <div class="item5">
             <a href="{wt_action_url mod="SS" act="CS"}group/cat_shobun/catid/0-114030/tabAllFlg/1" class="item5__text">防災用品</a>
         </div> -->
