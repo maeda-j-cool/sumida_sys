@@ -579,7 +579,9 @@
 }
   /* シーズン */
   .item_season {
-    width: 504px;
+    width:486px;
+    margin-left:6px;
+    margin-top:22px;
   }
 .seek {
   max-width: 1008px;
@@ -1029,7 +1031,7 @@
   }
     /* シーズン */
 .item_season {
-  width: 97%;
+  width: 96%;
   margin: 0 auto;
 }
   .seek {
